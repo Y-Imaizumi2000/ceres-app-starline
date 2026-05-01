@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>現実準拠の太陽系アニメーション</title>
+<style>
+  body {
+    margin: 0;
+    background: radial-gradient(circle at center, #0a0f24, #000814 70%, #000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  canvas {
+    background: transparent;
+  }
+</style>
+</head>
+<body>
+
+<canvas id="solar" width="900" height="900"></canvas>
+
+<script>
+const canvas = document.getElementById("solar");
+const ctx = canvas.getContext("2d");
+
+const W = canvas.width;
+const H = canvas.height;
+const cx = W / 2;
+const cy = H / 2;
+
+// 惑星データ（現実準拠）
+const planets = [
+  { name: "Mercury", a: 0.39, e: 0.205, period: 88, color: "#b8b8b8", size: 4 },
+  { name: "Venus",   a: 0.72, e: 0.007, period: 225, color: "#e0b45c", size: 6 },
+  { name: "Earth",   a: 1.00, e: 0.017, period: 365, color: "#2a9df4", size: 6 },
+  { name: "Mars",    a: 1.52, e: 0.093, period: 687, color: "#c1440e", size: 5 },
+  { name: "Jupiter", a: 5.20, e: 0.048, period: 4333, color: "#d9a066", size: 10 },
+  { name: "Saturn",  a: 9.58, e: 0.056, period: 10759, color: "#e3c27d", size: 9 },
+  { name: "Uranus",  a: 19.2, e: 0.047, period: 30687, color: "#7dd3fc", size: 8 },
+  { name: "Neptune", a: 30.1, e: 0.009, period: 60190, color: "#4f46e5", size: 8 }
+];
+
+// スケール（対数）
+function scaleAU(au) {
+  return Math.log(1 + au) * 80;
+}
+
+let t = 0;
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+
+  // 太陽
+  ctx.beginPath();
+  ctx.arc(cx, cy, 20, 0, Math.PI * 2);
+  ctx.fillStyle = "#ffdd55";
+  ctx.shadowBlur = 30;
+  ctx.shadowColor = "#ff8800";
+  ctx.fill();
+  ctx.shadowBlur = 0;
+
+  planets.forEach(p => {
+    // 楕円軌道のパラメータ
+    const a = scaleAU(p.a);
+    const b = a * Math.sqrt(1 - p.e * p.e);
+
+    // 角度（速度は公転周期に比例）
+    const theta = (t / p.period) * 2 * Math.PI;
+
+    // 楕円の極方程式
+    const r = (a * (1 - p.e * p.e)) / (1 + p.e * Math.cos(theta));
+
+    // 座標
+    const x = cx + r * Math.cos(theta);
+    const y = cy + r * Math.sin(theta);
+
+    // 惑星
+    ctx.beginPath();
+    ctx.arc(x, y, p.size, 0, Math.PI * 2);
+    ctx.fillStyle = p.color;
+    ctx.fill();
+  });
+
+  t += 0.5; // 時間の進み方（調整可能）
+  requestAnimationFrame(draw);
+}
+
+draw();
+</script>
+
+</body>
+</html>

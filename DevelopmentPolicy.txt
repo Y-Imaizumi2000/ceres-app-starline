@@ -1,0 +1,9 @@
+# Development Policy
+
+- バックエンドは Java + Spring Boot
+- フロントエンドは React Native (TypeScript)
+- DBは PostgreSQL
+- APIは REST形式
+- 個人開発のため保守しやすさを優先する
+- 初期リリースは MVP機能のみ実装する
+- スマホアプリ展開を前提に設計する

@@ -1,0 +1,53 @@
+# Starline Project Policy
+
+## 1. Backend (Spring Boot)
+
+- Java17
+- Spring Boot 3系
+- REST API設計
+- PostgreSQL使用
+- Controller / Service / Repository構成
+- DTO分離
+
+## 2. Frontend (Web / React)
+
+- TypeScript使用
+- React（Web）ベース
+- screens / components / services に分離
+- API通信は services に集約
+- UIは静かで余白重視
+- レスポンシブ対応（スマホ閲覧前提）
+
+## 3. Naming Rules
+
+- クラス: PascalCase
+- メソッド: camelCase
+- API: kebab-case
+- DTO: XxxRequest / XxxResponse
+
+## 4. Directory Structure
+
+### Backend
+com.starline
+├ controller
+├ service
+├ repository
+├ entity
+├ dto
+│ ├ request
+│ └ response
+
+### Frontend
+src
+├ screens
+├ components
+├ features
+├ services
+├ utils
+
+## 5. Architecture Policy
+
+- SNS機能は最小限
+- 星・空・宇宙体験を中心
+- ユーザー同士の直接コミュニケーションはしない
+- API取得データはDBキャッシュする

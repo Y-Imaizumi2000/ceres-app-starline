@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: starline-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/CERESDB
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+server:
+  port: ${SERVER_PORT:8080}
+
+external:
+  wikipedia:
+    base-url: ${WIKIPEDIA_BASE_URL:https://api.wikimedia.org}
+  nasa:
+    base-url: ${NASA_BASE_URL:https://api.nasa.gov}
+    api-key: ${NASA_API_KEY:4rq816QGISZGSl4HityZMFrNbNSWv6WrPvgqUoXk}
+  solar-system:
+    base-url: ${SOLAR_SYSTEM_BASE_URL:https://api.le-systeme-solaire.net}
+    api-key: ${SOLAR_SYSTEM_API_KEY:7716e0bb-20aa-4456-a8cb-cdccfc1e57a5}

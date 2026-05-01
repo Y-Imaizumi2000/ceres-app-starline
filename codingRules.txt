@@ -1,0 +1,31 @@
+# Naming Rules
+
+- クラス名: PascalCase
+  例 UserController
+
+- メソッド名: camelCase
+  例 getUserProfile
+
+- 変数名: camelCase
+  例 userName
+
+- 定数名: UPPER_SNAKE_CASE
+  例 MAX_RETRY_COUNT
+
+- テーブル名: snake_case 複数形
+  例 users
+
+- カラム名: snake_case
+  例 created_at
+
+- APIパス: kebab-case
+  例 /api/users/profile
+
+- DTO:
+  Request / Response を末尾につける
+  UserCreateRequest
+  UserResponse
+
+- Entity:
+  単数形
+  User
