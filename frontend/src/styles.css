@@ -24,25 +24,113 @@ body::after {
   position: fixed;
   inset: 0;
   pointer-events: none;
+
+  background:
+    /* 天の川の淡い帯（エモさの決め手） */
+    linear-gradient(
+      115deg,
+      transparent 0%,
+      rgba(120, 150, 255, 0.12) 35%,
+      rgba(200, 150, 255, 0.14) 50%,
+      rgba(120, 200, 255, 0.10) 65%,
+      transparent 90%
+    ),
+
+    /* 既存の柔らかい光 */
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 42%);
+
+  transform: rotate(-8deg) scale(1.18);
+  opacity: 0.82;
 }
+
 
 body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+
+  /* ★ 星の粒を大量に追加（9レイヤー構成） */
   background-image:
+    /* 既存の3種（明るめ） */
     radial-gradient(circle, rgba(255, 255, 255, 0.8) 0 1px, transparent 1.5px),
     radial-gradient(circle, rgba(165, 203, 255, 0.75) 0 1px, transparent 1.4px),
-    radial-gradient(circle, rgba(255, 244, 213, 0.65) 0 1px, transparent 1.6px);
-  background-position: 0 0, 38px 54px, 84px 18px;
-  background-size: 118px 118px, 172px 172px, 236px 236px;
-  opacity: 0.34;
+    radial-gradient(circle, rgba(255, 244, 213, 0.65) 0 1px, transparent 1.6px),
+
+    /* 追加の3種（中間の明るさ） */
+    radial-gradient(circle, rgba(255, 255, 255, 0.6) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(180, 210, 255, 0.6) 0 1px, transparent 1.4px),
+    radial-gradient(circle, rgba(255, 230, 200, 0.55) 0 1px, transparent 1.6px),
+
+    /* さらに追加の3種（淡い星） */
+    radial-gradient(circle, rgba(255, 255, 255, 0.35) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(180, 200, 255, 0.32) 0 1px, transparent 1.4px),
+    radial-gradient(circle, rgba(255, 240, 210, 0.30) 0 1px, transparent 1.6px);
+
+  /* ★ ランダム感を出すために位置を大幅にズラす */
+  background-position:
+    0 0,
+    38px 54px,
+    84px 18px,
+
+    120px 90px,
+    200px 40px,
+    300px 160px,
+
+    160px 240px,
+    260px 120px,
+    340px 300px;
+
+  /* ★ スケールを増やして奥行きを強化 */
+  background-size:
+    118px 118px,
+    172px 172px,
+    236px 236px,
+
+    140px 140px,
+    200px 200px,
+    260px 260px,
+
+    180px 180px,
+    240px 240px,
+    300px 300px;
+
+  opacity: 0.48; /* 少し濃くして星の存在感アップ */
 }
 
+
+
 body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+
   background:
-    linear-gradient(110deg, transparent 0%, rgba(87, 121, 190, 0.13) 36%, rgba(197, 153, 218, 0.14) 49%, rgba(83, 186, 184, 0.08) 62%, transparent 82%),
+    /* 天の川の中心の光（細い帯） */
+    radial-gradient(
+      ellipse at 50% 50%,
+      rgba(255, 255, 255, 0.18) 0%,
+      rgba(200, 180, 255, 0.12) 20%,
+      rgba(120, 100, 200, 0.08) 40%,
+      transparent 70%
+    ),
+
+    /* 天の川の広がり（淡い青紫の雲） */
+    radial-gradient(
+      ellipse at 50% 50%,
+      rgba(150, 120, 255, 0.12) 0%,
+      rgba(90, 120, 200, 0.10) 35%,
+      transparent 80%
+    ),
+
+    /* 既存の柔らかい光 */
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 42%);
-  transform: rotate(-7deg) scale(1.15);
-  opacity: 0.78;
+
+  transform: rotate(-28deg) scale(1.6);
+  opacity: 0.75;
 }
+
 
 .page {
   position: relative;
@@ -223,4 +311,266 @@ body::after {
   .planet-facts {
     grid-template-columns: 1fr;
   }
+}
+
+
+
+/* ===== 星の瞬きレイヤー ===== */
+.star-twinkle {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.9) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(180,210,255,0.8) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(255,240,210,0.7) 0 1px, transparent 1.5px);
+
+  background-size:
+    140px 140px,
+    200px 200px,
+    260px 260px;
+
+  background-position:
+    20px 40px,
+    120px 180px,
+    260px 80px;
+
+  animation: twinkle 6s ease-in-out infinite alternate;
+  opacity: 0.35;
+}
+
+@keyframes twinkle {
+  0%   { opacity: 0.15; }
+  50%  { opacity: 0.45; }
+  100% { opacity: 0.20; }
+}
+
+
+/* ===== ランダム強めの瞬きレイヤー ===== */
+.star-twinkle {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* レイヤー1（弱め・ゆっくり） */
+.star-twinkle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.9) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(180,210,255,0.8) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(255,240,210,0.7) 0 1px, transparent 1.5px);
+  background-size: 140px 140px, 200px 200px, 260px 260px;
+  background-position: 20px 40px, 120px 180px, 260px 80px;
+  animation: twinkleA 7s ease-in-out infinite alternate;
+  opacity: 0.28;
+}
+
+/* レイヤー2（中くらい・周期ランダム） */
+.star-twinkle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.85) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(180,210,255,0.75) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(255,240,210,0.65) 0 1px, transparent 1.5px);
+  background-size: 160px 160px, 220px 220px, 300px 300px;
+  background-position: 80px 120px, 200px 260px, 340px 140px;
+  animation: twinkleB 5.5s ease-in-out infinite alternate;
+  opacity: 0.38;
+}
+
+/* レイヤー3（強め・速め・主張を出す） */
+.star-twinkle-layer3 {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,1) 0 1.4px, transparent 1.8px),
+    radial-gradient(circle, rgba(180,210,255,0.9) 0 1.4px, transparent 1.8px);
+  background-size: 180px 180px, 260px 260px;
+  background-position: 140px 200px, 260px 60px;
+  animation: twinkleC 4.2s ease-in-out infinite alternate;
+  opacity: 0.45;
+}
+
+/* ===== アニメーション（周期を全部ズラす） ===== */
+@keyframes twinkleA {
+  0%   { opacity: 0.15; }
+  50%  { opacity: 0.40; }
+  100% { opacity: 0.20; }
+}
+
+@keyframes twinkleB {
+  0%   { opacity: 0.10; }
+  50%  { opacity: 0.55; }
+  100% { opacity: 0.18; }
+}
+
+@keyframes twinkleC {
+  0%   { opacity: 0.25; }
+  50%  { opacity: 0.75; }
+  100% { opacity: 0.30; }
+}
+
+
+
+/* ===== 星のパララックス（奥行きの動き） ===== */
+
+/* レイヤー1：一番遠い星（動きが最も遅い） */
+.star-parallax-layer1 {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.4) 0 1px, transparent 1.5px);
+  background-size: 200px 200px;
+  animation: starDrift1 120s linear infinite;
+  opacity: 0.25;
+}
+
+/* レイヤー2：中間の星（中くらいの速度） */
+.star-parallax-layer2 {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.6) 0 1px, transparent 1.5px);
+  background-size: 160px 160px;
+  animation: starDrift2 80s linear infinite;
+  opacity: 0.32;
+}
+
+/* レイヤー3：手前の星（動きが一番速い） */
+.star-parallax-layer3 {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.8) 0 1px, transparent 1.5px);
+  background-size: 120px 120px;
+  animation: starDrift3 55s linear infinite;
+  opacity: 0.38;
+}
+
+/* ===== パララックスの動き（天の川と同じ -28°） ===== */
+@keyframes starDrift1 {
+  from { transform: translate(0, 0) rotate(0deg); }
+  to   { transform: translate(300px, 160px) rotate(0deg); }
+}
+
+@keyframes starDrift2 {
+  from { transform: translate(0, 0) rotate(0deg); }
+  to   { transform: translate(450px, 240px) rotate(0deg); }
+}
+
+@keyframes starDrift3 {
+  from { transform: translate(0, 0) rotate(0deg); }
+  to   { transform: translate(600px, 320px) rotate(0deg); }
+}
+
+
+/* ===== 奥から手前に流れてくる星（Z方向パララックス） ===== */
+
+/* 遠くの星（小さく始まり、少しだけ大きくなる） */
+.star-depth-layer1 {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.35) 0 1px, transparent 1.5px);
+  background-size: 180px 180px;
+  animation: starDepth1 14s linear infinite;
+  opacity: 0.25;
+}
+
+/* 中間の星（拡大が少し強い） */
+.star-depth-layer2 {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.55) 0 1px, transparent 1.5px);
+  background-size: 160px 160px;
+  animation: starDepth2 10s linear infinite;
+  opacity: 0.32;
+}
+
+/* 手前に来る星（拡大が最も強い） */
+/* ===== 手前の星（完全ランダム配置＋奥→手前） ===== */
+.star-depth-layer3 {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  /* ★ ランダムな星を box-shadow で大量生成 */
+  width: 2px;
+  height: 2px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 50%;
+
+  box-shadow:
+    120px 40px rgba(255,255,255,0.9),
+    300px 180px rgba(255,255,255,0.85),
+    480px 260px rgba(255,255,255,0.8),
+    620px 120px rgba(255,255,255,0.9),
+    800px 300px rgba(255,255,255,0.85),
+    960px 200px rgba(255,255,255,0.9),
+    1100px 80px rgba(255,255,255,0.8),
+    1300px 260px rgba(255,255,255,0.9),
+    1500px 160px rgba(255,255,255,0.85);
+
+  animation: starDepthRandom 7s linear infinite;
+  opacity: 0.55;
+}
+
+/* ★ 奥→手前の動き（拡大＋軽い移動） */
+@keyframes starDepthRandom {
+  0% {
+    transform: scale(0.4) translate(-80px, -40px);
+    opacity: 0.15;
+  }
+  100% {
+    transform: scale(1.4) translate(80px, 40px);
+    opacity: 0.65;
+  }
+}
+
+/* ===== 天の川の上に星を追加するレイヤー ===== */
+.milkyway-stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  /* ★ 天の川の帯の上に散らばる星（淡め） */
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.55) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(180,210,255,0.45) 0 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(255,240,210,0.40) 0 1px, transparent 1.5px);
+
+  background-size:
+    160px 160px,
+    220px 220px,
+    300px 300px;
+
+  background-position:
+    40px 80px,
+    180px 200px,
+    320px 140px;
+
+  opacity: 0.38;
 }
