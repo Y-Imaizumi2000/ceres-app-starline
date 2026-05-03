@@ -79,12 +79,16 @@ public class TodaySpaceImageService {
             String title = response.title() == null || response.title().isBlank()
                     ? "NASA 今日の宇宙画像"
                     : response.title();
+            String explanation = response.explanation() != null && !response.explanation().isBlank()
+                ? response.explanation() + "\n\n"
+                : "";
+
             String description = apodDate.equals(cacheDate)
-                    ? "NASAが公開した今日の宇宙画像です。詳細な解説はNASA APODの元ページで確認できます。"
-                    : "NASAの今日分がまだ未公開のため、直近で公開された宇宙画像を表示しています。";
+                ? explanation + "NASAが公開した今日の宇宙画像です。詳細な解説はNASA APODの元ページで確認できます。"
+                : explanation + "NASAの今日分がまだ未公開のため、直近で公開された宇宙画像を表示しています。";
             String mediaType = response.mediaType() == null || response.mediaType().isBlank()
-                    ? "image"
-                    : response.mediaType();
+                ? "image"
+                : response.mediaType();
             return new TodaySpaceImage(cacheDate, title, description, response.url(), mediaType, "NASA APOD");
         } catch (RestClientException exception) {
             return null;

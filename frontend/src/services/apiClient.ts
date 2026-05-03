@@ -30,8 +30,10 @@ export async function getTodaySpaceImage(): Promise<TodaySpaceImageResponse> {
   return response.json();
 }
 
-export async function getTonightSky(): Promise<TonightSkyResponse> {
-  const response = await fetch(`${API_BASE_URL}/api/tonight-sky`);
+export async function getTonightSky(location: string): Promise<TonightSkyResponse> {
+  const response = await fetch(
+    `${API_BASE_URL}/api/tonight-sky?location=${encodeURIComponent(location)}`
+  );
   if (!response.ok) {
     throw new Error(`Tonight sky failed: ${response.status}`);
   }
