@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomeScreen } from "./screens/HomeScreen";
 import HistoryScreen from "./features/todaySpaceHistory/HistoryScreen";
+import SolarSystemScreen from "./features/solarSystem/SolarSystemScreen";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/history" element={<HistoryScreen />} />
+          <Route path="/solar" element={<SolarSystemScreen />} />
         </Routes>
       </BrowserRouter>
     </>

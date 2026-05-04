@@ -130,3 +130,221 @@
       at async EnvironmentPluginContainer.transform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
       at async loadAndTransform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
       at async viteTransformMiddleware (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+[2m23:39:47[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\Git作業\ceres-app-starline\frontend\src\components\CircleMenu.tsx: Identifier 'useState' has already been declared. (4:9)
+
+[0m [90m 2 |[31m [36mimport[31m { animated } [36mfrom[31m [32m"@react-spring/web"[31m[33m;[31m
+ [90m 3 |[31m [36mimport[31m { useDrag } [36mfrom[31m [32m"@use-gesture/react"[31m[33m;[31m
+[31m[1m>[22m[31m[90m 4 |[31m [36mimport[31m { useState[33m,[31m useEffect } [36mfrom[31m [32m"react"[31m[33m;[31m
+ [90m   |[31m          [31m[1m^[22m[31m
+ [90m 5 |[31m
+ [90m 6 |[31m
+ [90m 7 |[31m type [33mMenuItem[31m [33m=[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Git作業/ceres-app-starline/frontend/src/components/CircleMenu.tsx[39m:4:9
+[33m  2  |  import { animated } from "@react-spring/web";
+  3  |  import { useDrag } from "@use-gesture/react";
+  4  |  import { useState, useEffect } from "react";
+     |              ^
+  5  |  
+  6  |  [39m
+      at constructor (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptScopeHandler.declareName (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4866:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:7500:12)
+      at TypeScriptParserMixin.finishImportSpecifier (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:14266:10)
+      at TypeScriptParserMixin.parseImportSpecifier (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:14419:17)
+      at TypeScriptParserMixin.parseImportSpecifier (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10148:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:14398:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:14242:37)
+      at TypeScriptParserMixin.parseImport (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12612:25)
+      at TypeScriptParserMixin.parse (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:14488:25)
+      at TypeScriptParserMixin.parse (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10126:18)
+      at parse (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:261:32)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:223:11)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:189:28
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:113:33
+      at step (D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:287:14)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\Git作業\ceres-app-starline\frontend\node_modules\gensync\index.js:223:11)
+[2m0:20:58[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../components/dialog/BaseDialog" from "src/features/todaySpaceHistory/HistoryDialog.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/Git作業/ceres-app-starline/frontend/src/features/todaySpaceHistory/HistoryDialog.tsx[39m:1:23
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import BaseDialog from "../../components/dialog/BaseDialog";
+     |                          ^
+  18 |  export function HistoryDialog({ history }) {
+  19 |    return /* @__PURE__ */ jsxDEV(BaseDialog, { title: "今日の宇宙史", children: [[39m
+      at TransformPluginContext._formatLog (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+[2m23:41:12[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\Git作業\ceres-app-starline\frontend\src\screens\HomeScreen.tsx: Unexpected token (57:11)
+
+[0m [90m 55 |[31m       onSelect[33m:[31m [36masync[31m () [33m=>[31m {
+ [90m 56 |[31m         [36mconst[31m data [33m=[31m [36mawait[31m getTodaySpaceHistory()[33m;[31m
+[31m[1m>[22m[31m[90m 57 |[31m         [36mset[31m
+ [90m    |[31m            [31m[1m^[22m[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Git作業/ceres-app-starline/frontend/src/screens/HomeScreen.tsx[39m:57:11
+      at constructor (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.parseExprAtom (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11442:22)
+      at TypeScriptParserMixin.parseExprAtom (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12895:23)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseFunctionBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12100:24)
+      at TypeScriptParserMixin.parseArrowExpression (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12075:10)
+      at TypeScriptParserMixin.parseAsyncArrowFromCallExpression (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11264:10)
+      at TypeScriptParserMixin.parseAsyncArrowFromCallExpression (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9766:18)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11194:27)
+      at TypeScriptParserMixin.parseSubscript (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11950:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11978:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9744:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11915:17)
+[2m23:48:17[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\Git作業\ceres-app-starline\frontend\src\features\todaySpaceImage\ImageScreen.tsx: Unexpected token (27:15)
+
+[0m [90m 25 |[31m   }
+ [90m 26 |[31m
+[31m[1m>[22m[31m[90m 27 |[31m   [36mreturn[31m [33m<[31m[33mimage[31m[33m=[31m{image} onClose[33m=[31m{onClose} [33m/[31m[33m>[31m[33m;[31m
+ [90m    |[31m                [31m[1m^[22m[31m
+ [90m 28 |[31m }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/Git作業/ceres-app-starline/frontend/src/features/todaySpaceImage/ImageScreen.tsx[39m:27:15
+[33m  25 |    }
+  26 |  
+  27 |    return <image={image} onClose={onClose} />;
+     |                                           ^
+  28 |  }[39m
+      at constructor (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4569:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4576:23)
+      at TypeScriptParserMixin.jsxParseAttribute (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4652:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4667:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10043:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4662:17)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4686:33)
+      at TypeScriptParserMixin.jsxParseElement (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9775:18)
+      at TypeScriptParserMixin.parseExpressionBase (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseFunctionBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12100:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12086:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9172:18)
+      at D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13445:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseFunction (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13444:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13907:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9402:18)
+      at TypeScriptParserMixin.parseExport (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13828:25)
+      at TypeScriptParserMixin.parseExport (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9385:20)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12878:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\Git作業\ceres-app-starline\frontend\node_modules\@babel\parser\lib\index.js:13316:36)
+[2m23:34:32[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../data/municipalities.json" from "src/features/tonightSky/TonightSkyScreen.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mD:/Git作業/ceres-app-starline/frontend/src/features/tonightSky/TonightSkyScreen.tsx[39m:5:31
+[33m  19 |  import { TonightSkyDialog } from "./TonightSkyDialog";
+  20 |  import { getTonightSky } from "../../services/apiClient";
+  21 |  import municipalitiesData from "../../data/municipalities.json";
+     |                                  ^
+  22 |  const LOCATION_KEY = "tonightSky_location";
+  23 |  export default function TonightSkyScreen({ onClose }) {[39m
+      at TransformPluginContext._formatLog (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///D:/Git%E4%BD%9C%E6%A5%AD/ceres-app-starline/frontend/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)

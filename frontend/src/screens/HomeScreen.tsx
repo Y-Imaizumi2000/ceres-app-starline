@@ -3,11 +3,11 @@ import { CircleMenu } from "../components/CircleMenu";
 import { useNavigate } from "react-router-dom";
 import ImageScreen from "../features/todaySpaceImage/ImageScreen";
 import TonightSkyScreen from "../features/tonightSky/TonightSkyScreen";
+import SolarSystemScreen from "../features/solarSystem/SolarSystemScreen";
 
 import {
   checkSkyToday,
   getSkyCheckStatus,
-  getSolarSystemPlanets,
   getTodaySpaceHistory
 } from "../services/apiClient";
 
@@ -32,7 +32,6 @@ export function HomeScreen() {
       setIsLoading(true);
 
       await Promise.allSettled([
-        getSolarSystemPlanets(),
         getSkyCheckStatus()
       ]);
 

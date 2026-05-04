@@ -821,3 +821,65 @@ body::after {
   color: white;
   border-color: rgba(255, 255, 255, 0.4);
 }
+
+
+.solar-detail {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.solar-detail-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #e8eeff;
+  margin: 0 0 10px;
+}
+
+.solar-detail-en {
+  font-size: 0.8rem;
+  color: #7a8ab0;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.solar-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.solar-detail-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.solar-detail-label {
+  font-size: 0.75rem;
+  color: #7a8ab0;
+  margin-bottom: 2px;
+}
+
+.solar-detail-value {
+  font-size: 0.85rem;
+  color: #c8d4f0;
+  font-weight: 500;
+} 
+
+
+
+.back-button {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+  transition: color 0.2s;
+}
+
+.back-button:hover {
+  color: white;
+}
