@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import { CircleMenu } from "../components/CircleMenu";
 import { useNavigate } from "react-router-dom";
-import ImageScreen from "../features/todaySpaceImage/ImageScreen";
-import TonightSkyScreen from "../features/tonightSky/TonightSkyScreen";
-import SolarSystemScreen from "../features/solarSystem/SolarSystemScreen";
 
 import {
   checkSkyToday,
@@ -14,7 +11,6 @@ export function HomeScreen() {
   const navigate = useNavigate();
 
   const [isLoading, setIsLoading] = useState(true);
-  const [showTonight, setShowTonight] = useState(false);
 
   useEffect(() => {
     let mounted = true;
@@ -41,7 +37,7 @@ export function HomeScreen() {
   const menuItems = [
     { id: "history", label: "今日の宇宙史", onSelect: () => navigate("/history") },
     { id: "image", label: "今日の宇宙画像", onSelect: () => navigate("/image") },
-    { id: "tonight", label: "今夜見える星", onSelect: () => setShowTonight(true) },
+    { id: "tonight", label: "今夜見える星", onSelect: () => navigate("/tonight") },
     { id: "solar", label: "太陽系図鑑", onSelect: () => navigate("/solar") },
     { id: "skycheck", label: "今日空見た？", onSelect: () => navigate("/skycheck") },
     { id: "share", label: "空の共有", onSelect: () => navigate("/share") }
@@ -58,9 +54,6 @@ export function HomeScreen() {
         <CircleMenu items={menuItems} />
       )}
 
-      {showTonight && (
-        <TonightSkyScreen onClose={() => setShowTonight(false)} />
-      )}
     </main>
   );
 }

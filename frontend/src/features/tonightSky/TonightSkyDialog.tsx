@@ -1,15 +1,13 @@
-import BaseDialog from "../../components/BaseDialog";
 import type { TonightSkyResponse } from "./types";
 
 type Props = {
   sky: TonightSkyResponse;
-  onClose?: () => void;
   onChangeLocation?: () => void;
 };
 
-export function TonightSkyDialog({ sky, onClose, onChangeLocation }: Props) {
+export function TonightSkyDialog({ sky, onChangeLocation }: Props) {
   return (
-    <BaseDialog title="今夜見える星" onClose={onClose}>
+    <>
       <div className="tonight-info">
         <p className="tonight-info-item"><span className="tonight-label">場所</span>{sky.location}</p>
         <p className="tonight-info-item"><span className="tonight-label">視界</span>{sky.visibility}</p>
@@ -31,6 +29,6 @@ export function TonightSkyDialog({ sky, onClose, onChangeLocation }: Props) {
           地点を変更
         </button>
       )}
-    </BaseDialog>
+    </>
   );
 }

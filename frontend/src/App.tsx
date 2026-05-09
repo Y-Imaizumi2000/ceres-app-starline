@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomeScreen } from "./screens/HomeScreen";
 import HistoryScreen from "./features/todaySpaceHistory/HistoryScreen";
 import ImageScreen from "./features/todaySpaceImage/ImageScreen";
+import TonightSkyScreen from "./features/tonightSky/TonightSkyScreen";
 import SolarSystemScreen from "./features/solarSystem/SolarSystemScreen";
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/" element={<HomeScreen />} />
           <Route path="/history" element={<HistoryScreen />} />
           <Route path="/image" element={<ImageScreen />} />
+          <Route path="/tonight" element={<TonightSkyScreen />} />
           <Route path="/solar" element={<SolarSystemScreen />} />
         </Routes>
       </BrowserRouter>

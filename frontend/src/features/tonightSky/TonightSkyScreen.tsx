@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { TonightSkyDialog } from "./TonightSkyDialog";
 import { getTonightSky } from "../../services/apiClient";
 import type { TonightSkyResponse } from "./types";
@@ -6,11 +7,8 @@ import municipalitiesData from "../../data/municipalities.json";
 
 const LOCATION_KEY = "tonightSky_location";
 
-type Props = {
-  onClose?: () => void;
-};
-
-export default function TonightSkyScreen({ onClose }: Props) {
+export default function TonightSkyScreen() {
+  const navigate = useNavigate();
   const [sky, setSky] = useState<TonightSkyResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [showInput, setShowInput] = useState(false);
@@ -47,42 +45,44 @@ export default function TonightSkyScreen({ onClose }: Props) {
     loadSky(location);
   };
 
-  if (showInput) {
-    return (
-      <div className="dialog-overlay">
-        <div className="dialog-box" onClick={(e) => e.stopPropagation()}>
-          <div className="dialog-header">
-            <h2>観測地点を設定</h2>
-          </div>
-          <div className="dialog-content">
-            <p className="card-body">お住まいの市区町村を選択してください。</p>
-            <select
-              className="location-select"
-              value={selectedPref}
-              onChange={(e) => {
-                setSelectedPref(e.target.value);
-                setSelectedCity("");
-              }}
-            >
-              <option value="">都道府県を選択</option>
-              {prefectures.map((pref) => (
-                <option key={pref} value={pref}>{pref}</option>
-              ))}
-            </select>
-            <select
-              className="location-select"
-              value={selectedCity}
-              onChange={(e) => setSelectedCity(e.target.value)}
-              disabled={!selectedPref}
-            >
-              <option value="">市区町村を選択</option>
-              {cities.map((city) => (
-                <option key={city} value={city}>{city}</option>
-              ))}
-            </select>
-          </div>
+  return (
+    <main className="page">
+      <button className="back-button" onClick={() => navigate("/")}>← ホームへ</button>
+      <h1 className="title">今夜見える星</h1>
+      <p className="subtitle">観測地点を設定して、今夜みえる星をチェックしましょう。</p>
+
+      {showInput ? (
+        <div className="quiet-card">
+          <h2 className="card-title">観測地点を設定</h2>
+          <p className="card-body">お住まいの都道府県と市区町村を選択してください。</p>
+
+          <select
+            className="location-select"
+            value={selectedPref}
+            onChange={(e) => {
+              setSelectedPref(e.target.value);
+              setSelectedCity("");
+            }}
+          >
+            <option value="">都道府県を選択</option>
+            {prefectures.map((pref) => (
+              <option key={pref} value={pref}>{pref}</option>
+            ))}
+          </select>
+
+          <select
+            className="location-select"
+            value={selectedCity}
+            onChange={(e) => setSelectedCity(e.target.value)}
+            disabled={!selectedPref}
+          >
+            <option value="">市区町村を選択</option>
+            {cities.map((city) => (
+              <option key={city} value={city}>{city}</option>
+            ))}
+          </select>
+
           <div className="location-input-actions">
-            <button className="dialog-close-button" onClick={onClose}>キャンセル</button>
             <button
               className="location-submit-button"
               onClick={handleSubmit}
@@ -92,17 +92,18 @@ export default function TonightSkyScreen({ onClose }: Props) {
             </button>
           </div>
         </div>
-      </div>
-    );
-  }
-
-  if (loading || !sky) {
-    return <p className="card-body">読み込み中...</p>;
-  }
-
-  return <TonightSkyDialog sky={sky} onClose={onClose} onChangeLocation={() => {
-    localStorage.removeItem(LOCATION_KEY);
-    setShowInput(true);
-    setSky(null);
-  }} />;
+      ) : loading || !sky ? (
+        <p className="card-body">読み込み中...</p>
+      ) : (
+          <TonightSkyDialog
+            sky={sky}
+            onChangeLocation={() => {
+              localStorage.removeItem(LOCATION_KEY);
+              setShowInput(true);
+              setSky(null);
+            }}
+          />
+      )}
+    </main>
+  );
 }
