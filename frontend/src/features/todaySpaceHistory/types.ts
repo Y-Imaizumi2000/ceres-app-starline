@@ -1,7 +1,9 @@
 export type TodaySpaceHistoryResponse = {
   date: string;
-  title: string;
+  spaceTopic: string;
   description: string;
+  year: number;
+  category: string;
   imageUrl?: string;
   source?: string;
 };

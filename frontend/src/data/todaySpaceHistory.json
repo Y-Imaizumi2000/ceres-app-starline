@@ -1,0 +1,2932 @@
+[
+  {
+    "date": "01/01",
+    "spaceTopic": "小惑星ケレスの発見",
+    "description": "1801年1月1日、シチリア島パレルモ天文台の天文学者ジュゼッペ・ピアッツィは、黄道付近を移動する未知の天体を観測し、これを「ケレス」と名付けた。これは人類が初めて発見した小惑星であり、後に「準惑星」に再分類されるほど太陽系研究に大きな影響を与えた。ケレスの発見は、火星と木星の間に広がる小惑星帯の存在を示す最初の証拠となった。",
+    "year": 1801,
+    "imageUrl": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Ceres_-_RC3_-_Haulani_Crater_(22381131691).jpg",
+    "category": "天文学",
+    "source": "Wikipedia / NASA"
+  },
+  {
+    "date": "01/02",
+    "spaceTopic": "ルナ1号打ち上げ",
+    "description": "ソ連が世界初の月探査機ルナ1号を打ち上げ。",
+    "year": 1959,
+    "category": "月探査",
+    "source": "NASA / Wikipedia"
+  },
+  {
+    "date": "01/03",
+    "spaceTopic": "スターダスト打ち上げ",
+    "description": "NASAの彗星探査機スターダストが打ち上げられた。",
+    "year": 1999,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "01/04",
+    "spaceTopic": "スピリット火星着陸",
+    "description": "NASAの火星探査車スピリットが火星に着陸。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "01/05",
+    "spaceTopic": "ケプラー望遠鏡観測開始",
+    "description": "ケプラー宇宙望遠鏡が本格的な観測フェーズに入ったと発表。",
+    "year": 2009,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "01/06",
+    "spaceTopic": "ヴォイジャー1号 太陽圏外縁部到達",
+    "description": "ヴォイジャー1号が太陽圏外縁部（ヘリオシース）に到達したと報告。",
+    "year": 2011,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "01/07",
+    "spaceTopic": "ガリレオ衛星の正式発見",
+    "description": "ガリレオが木星の衛星イオ・エウロパ・ガニメデ・カリストを正式に発見。",
+    "year": 1610,
+    "category": "天文学",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "01/08",
+    "spaceTopic": "スティーブン・ホーキング誕生日",
+    "description": "理論物理学者スティーブン・ホーキング博士の誕生日。",
+    "year": 1942,
+    "category": "人物",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "01/09",
+    "spaceTopic": "ハッブル望遠鏡 木星嵐の観測報告",
+    "description": "ハッブル宇宙望遠鏡が木星の大赤斑の変化を詳細に報告。",
+    "year": 1998,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "01/10",
+    "spaceTopic": "ロゼッタ探査機 彗星接近フェーズへ移行",
+    "description": "ESAのロゼッタ探査機がチュリュモフ・ゲラシメンコ彗星への接近フェーズに入る。",
+    "year": 2014,
+    "category": "探査機",
+    "source": "ESA / Wikipedia"
+  },
+  {
+    "date": "01/11",
+    "spaceTopic": "ディープインパクト打ち上げ",
+    "description": "NASAの彗星衝突探査機ディープインパクトが打ち上げられた。",
+    "year": 2005,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "01/12",
+    "spaceTopic": "マーズエクスプレス 火星周回軌道投入成功発表",
+    "description": "ESAが火星周回軌道投入成功を正式発表。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "ESA"
+  },
+  {
+    "date": "01/13",
+    "spaceTopic": "ピオニア10号 木星最接近",
+    "description": "ピオニア10号が木星に最接近し詳細観測を実施。",
+    "year": 1974,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "01/14",
+    "spaceTopic": "ハッブル望遠鏡 最遠方銀河候補を観測",
+    "description": "HSTが当時最遠方の銀河候補を観測したと発表。",
+    "year": 2011,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "01/15",
+    "spaceTopic": "ファルコン9 初の軌道投入成功",
+    "description": "SpaceXのファルコン9ロケットが初の軌道投入成功を達成。",
+    "year": 2015,
+    "category": "民間宇宙",
+    "source": "SpaceX"
+  },
+  {
+    "date": "01/16",
+    "spaceTopic": "コロンビア号 STS-1 試験完了",
+    "description": "スペースシャトル初飛行に向けた重要試験が完了。",
+    "year": 1981,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "01/17",
+    "spaceTopic": "ホイヘンス タイタン降下準備完了",
+    "description": "カッシーニ搭載のホイヘンスがタイタン降下準備を完了。",
+    "year": 2005,
+    "category": "探査機",
+    "source": "NASA / ESA"
+  },
+  {
+    "date": "01/18",
+    "spaceTopic": "JWST L2到達",
+    "description": "ジェームズ・ウェッブ宇宙望遠鏡がラグランジュ点L2に到達。",
+    "year": 2022,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "01/19",
+    "spaceTopic": "メッセンジャー打ち上げ",
+    "description": "NASAの水星探査機メッセンジャーが打ち上げ。",
+    "year": 2004,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "01/20",
+    "spaceTopic": "アポロ5号打ち上げ",
+    "description": "無人の月着陸船試験ミッションが成功。",
+    "year": 1968,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "01/21",
+    "spaceTopic": "ソユーズTM-27打ち上げ",
+    "description": "ロシアのソユーズ宇宙船がミールへ向けて打ち上げ。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "01/22",
+    "spaceTopic": "スピッツァー望遠鏡 最終試験完了",
+    "description": "赤外線宇宙望遠鏡スピッツァーの最終試験が完了。",
+    "year": 2003,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "01/23",
+    "spaceTopic": "ルナ21号打ち上げ",
+    "description": "ソ連の無人月探査機ルナ21号が打ち上げ。",
+    "year": 1973,
+    "category": "月探査",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "01/24",
+    "spaceTopic": "ボイジャー2号 天王星最接近",
+    "description": "ボイジャー2号が天王星に最接近。",
+    "year": 1986,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "01/25",
+    "spaceTopic": "オポチュニティ火星着陸",
+    "description": "NASAの火星探査車オポチュニティが火星に着陸。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "01/26",
+    "spaceTopic": "日本初の人工衛星「おおすみ」打ち上げ成功",
+    "description": "日本初の人工衛星が成功。",
+    "year": 1970,
+    "category": "人工衛星",
+    "source": "JAXA（ISAS）"
+  },
+  {
+    "date": "01/27",
+    "spaceTopic": "アポロ1号火災事故",
+    "description": "地上試験中に火災が発生し3名が殉職。",
+    "year": 1967,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "01/28",
+    "spaceTopic": "チャレンジャー号事故",
+    "description": "スペースシャトル・チャレンジャー号が空中分解。",
+    "year": 1986,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "01/29",
+    "spaceTopic": "ハッブル望遠鏡 冥王星衛星ニクス・ヒドラ観測",
+    "description": "冥王星の小衛星の詳細観測を実施。",
+    "year": 2006,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "01/30",
+    "spaceTopic": "アポロ8号 月周回ミッション準備完了",
+    "description": "人類初の月周回ミッションの最終準備日。",
+    "year": 1968,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "01/31",
+    "spaceTopic": "エクスプローラー1号打ち上げ",
+    "description": "アメリカ初の人工衛星が打ち上げ成功。",
+    "year": 1958,
+    "category": "人工衛星",
+    "source": "NASA"
+  },
+  {
+    "date": "02/01",
+    "spaceTopic": "コロンビア号事故",
+    "description": "スペースシャトル・コロンビア号が大気圏再突入時に空中分解。",
+    "year": 2003,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/02",
+    "spaceTopic": "ルナ9号 月面軟着陸成功",
+    "description": "世界初の月面軟着陸に成功し写真送信を実施。",
+    "year": 1966,
+    "category": "月探査",
+    "source": "Roscosmos / Wikipedia"
+  },
+  {
+    "date": "02/03",
+    "spaceTopic": "スプートニク3号 打ち上げ",
+    "description": "ソ連の科学観測衛星スプートニク3号が打ち上げ。",
+    "year": 1958,
+    "category": "人工衛星",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "02/04",
+    "spaceTopic": "マーキュリー計画 MA-6 打ち上げ準備完了",
+    "description": "ジョン・グレンの地球周回飛行に向けた最終準備が完了。",
+    "year": 1962,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/05",
+    "spaceTopic": "ルナ21号 月面着陸",
+    "description": "ルナ21号が月面に着陸しルノホート2号を展開。",
+    "year": 1973,
+    "category": "月探査",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "02/06",
+    "spaceTopic": "スペースシャトル アトランティス STS-98 打ち上げ",
+    "description": "国際宇宙ステーションに米国研究棟デスティニーを届ける。",
+    "year": 2001,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/07",
+    "spaceTopic": "ニューホライズンズ 木星スイングバイ",
+    "description": "冥王星探査機が木星重力を利用した加速に成功。",
+    "year": 2007,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "02/08",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-41-B 打ち上げ",
+    "description": "初の無動力帰還実験（MMU宇宙遊泳）を実施。",
+    "year": 1984,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/09",
+    "spaceTopic": "ISSに日本の実験装置「MAXI」計画承認",
+    "description": "X線全天監視装置MAXIの搭載が正式承認。",
+    "year": 2009,
+    "category": "宇宙科学",
+    "source": "JAXA"
+  },
+  {
+    "date": "02/10",
+    "spaceTopic": "ソユーズMS-16 帰還",
+    "description": "国際宇宙ステーションから3名の宇宙飛行士が帰還。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "02/11",
+    "spaceTopic": "ESA ソーラーオービター打ち上げ",
+    "description": "太陽極域観測を目的とした探査機が打ち上げ。",
+    "year": 2020,
+    "category": "太陽探査",
+    "source": "ESA"
+  },
+  {
+    "date": "02/12",
+    "spaceTopic": "マーズリコネッサンスオービター 打ち上げ準備完了",
+    "description": "火星周回探査機の最終試験が完了。",
+    "year": 2005,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "02/13",
+    "spaceTopic": "スカイラブ計画 SL-4 帰還",
+    "description": "スカイラブ最後の乗組員が地球へ帰還。",
+    "year": 1974,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/14",
+    "spaceTopic": "マーズオデッセイ 火星周回軌道投入",
+    "description": "NASAの火星探査機が周回軌道に到達。",
+    "year": 2001,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "02/15",
+    "spaceTopic": "ガリレオ探査機 木星観測データ公開",
+    "description": "木星大気の詳細データが公開される。",
+    "year": 1996,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "02/16",
+    "spaceTopic": "スペースシャトル エンデバー STS-130 打ち上げ",
+    "description": "ISSにトランクウィリティー（結合モジュール）を届ける。",
+    "year": 2010,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/17",
+    "spaceTopic": "スプートニク2号 大気圏再突入",
+    "description": "犬ライカを乗せた衛星が大気圏に再突入。",
+    "year": 1958,
+    "category": "人工衛星",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "02/18",
+    "spaceTopic": "パーサヴィアランス火星着陸",
+    "description": "NASAの火星探査車がジェゼロクレーターに着陸。",
+    "year": 2021,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "02/19",
+    "spaceTopic": "ミール宇宙ステーション 基本モジュール打ち上げ",
+    "description": "ロシアの宇宙ステーション建設が開始。",
+    "year": 1986,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "02/20",
+    "spaceTopic": "ジョン・グレン地球周回",
+    "description": "アメリカ人初の地球周回飛行を達成。",
+    "year": 1962,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/21",
+    "spaceTopic": "ルナ20号 月面着陸",
+    "description": "月のサンプルリターンに成功した無人探査機。",
+    "year": 1972,
+    "category": "月探査",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "02/22",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-119 打ち上げ準備完了",
+    "description": "ISSへ太陽電池パネルを届ける準備が完了。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/23",
+    "spaceTopic": "マーズパスファインダー 着陸地点決定",
+    "description": "着陸候補地が正式決定。",
+    "year": 1997,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "02/24",
+    "spaceTopic": "スペースシャトル アトランティス STS-36 打ち上げ",
+    "description": "国防総省の機密衛星を軌道投入。",
+    "year": 1990,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/25",
+    "spaceTopic": "ソユーズTMA-01M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2011,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "02/26",
+    "spaceTopic": "ハッブル望遠鏡 超新星SN1987A観測開始",
+    "description": "近傍銀河の超新星の詳細観測を開始。",
+    "year": 1987,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "02/27",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星観測開始",
+    "description": "火星表面の高解像度観測を開始。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "02/28",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-95 打ち上げ準備完了",
+    "description": "ジョン・グレンが再び宇宙へ向かうミッションの準備完了。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "02/29",
+    "spaceTopic": "スペースシャトル アトランティス STS-76 打ち上げ準備完了",
+    "description": "ミール宇宙ステーション補給ミッションの準備が完了。",
+    "year": 1996,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/01",
+    "spaceTopic": "パイオニア10号 太陽系脱出へ",
+    "description": "パイオニア10号が太陽系脱出軌道に乗ったと発表。",
+    "year": 1983,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "03/02",
+    "spaceTopic": "ソユーズT-10 打ち上げ",
+    "description": "ソ連のソユーズ宇宙船がサリュート7号へ向けて打ち上げ。",
+    "year": 1984,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "03/03",
+    "spaceTopic": "マーズリコネッサンスオービター 火星周回軌道投入",
+    "description": "NASAの火星探査機が周回軌道に到達。",
+    "year": 2006,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "03/04",
+    "spaceTopic": "スペースシャトル コロンビア STS-109 打ち上げ",
+    "description": "ハッブル望遠鏡の修理ミッションを実施。",
+    "year": 2002,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/05",
+    "spaceTopic": "ソユーズTMA-14 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの最終準備が完了。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "03/06",
+    "spaceTopic": "マリナー10号 金星スイングバイ",
+    "description": "金星の重力を利用して水星へ向かう軌道に乗る。",
+    "year": 1974,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "03/07",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-133 帰還",
+    "description": "ディスカバリー最後のミッションが終了。",
+    "year": 2011,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/08",
+    "spaceTopic": "スペースX CRS-20 打ち上げ",
+    "description": "ISSへの補給ミッションが成功。",
+    "year": 2020,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "03/09",
+    "spaceTopic": "ボイジャー1号 太陽圏外縁部観測データ公開",
+    "description": "ヘリオシースの詳細データが公開される。",
+    "year": 2011,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "03/10",
+    "spaceTopic": "ソユーズTMA-08M 打ち上げ",
+    "description": "ISSへわずか6時間で到達する高速ランデブーを実施。",
+    "year": 2013,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "03/11",
+    "spaceTopic": "スペースシャトル エンデバー STS-123 打ち上げ",
+    "description": "日本実験棟「きぼう」船内保管室をISSへ届ける。",
+    "year": 2008,
+    "category": "有人宇宙",
+    "source": "NASA / JAXA"
+  },
+  {
+    "date": "03/12",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星地形データ公開",
+    "description": "火星表面の高解像度地図が公開される。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "03/13",
+    "spaceTopic": "スカイラブ計画 SL-2 打ち上げ準備完了",
+    "description": "アメリカ初の宇宙ステーション計画の準備が整う。",
+    "year": 1973,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/14",
+    "spaceTopic": "スペースX ファルコン9 初の再使用成功",
+    "description": "ブースターの再着陸と再使用に成功。",
+    "year": 2017,
+    "category": "民間宇宙",
+    "source": "SpaceX"
+  },
+  {
+    "date": "03/15",
+    "spaceTopic": "ソユーズMS-12 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2019,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "03/16",
+    "spaceTopic": "アポロ16号 月面着陸準備開始",
+    "description": "月面探査に向けた最終訓練が開始。",
+    "year": 1972,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/17",
+    "spaceTopic": "マーズオデッセイ 火星観測データ公開",
+    "description": "火星の水氷分布に関する重要データが公開。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "03/18",
+    "spaceTopic": "アレクセイ・レオーノフ 宇宙遊泳",
+    "description": "人類初の宇宙遊泳を実施。",
+    "year": 1965,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "03/19",
+    "spaceTopic": "スペースシャトル アトランティス STS-117 打ち上げ準備完了",
+    "description": "ISSへ太陽電池パネルを届ける準備が整う。",
+    "year": 2007,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/20",
+    "spaceTopic": "ロゼッタ探査機 彗星核の詳細観測開始",
+    "description": "チュリュモフ・ゲラシメンコ彗星の核観測を開始。",
+    "year": 2014,
+    "category": "探査機",
+    "source": "ESA"
+  },
+  {
+    "date": "03/21",
+    "spaceTopic": "ソユーズTMA-16M 打ち上げ",
+    "description": "ISSでの1年間滞在ミッションが開始。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "03/22",
+    "spaceTopic": "ハッブル望遠鏡 宇宙最遠方銀河観測",
+    "description": "当時最遠方の銀河GN-z11を観測。",
+    "year": 2016,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "03/23",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-41-C 打ち上げ",
+    "description": "太陽観測衛星ソーラー・マックスの修理を実施。",
+    "year": 1984,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/24",
+    "spaceTopic": "マーズパスファインダー 着陸地点公開",
+    "description": "着陸候補地の詳細が公開される。",
+    "year": 1997,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "03/25",
+    "spaceTopic": "スペースシャトル コロンビア STS-3 打ち上げ",
+    "description": "シャトル計画初期の試験飛行を実施。",
+    "year": 1982,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/26",
+    "spaceTopic": "ソユーズTMA-15M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "03/27",
+    "spaceTopic": "ハッブル望遠鏡 木星のオーロラ観測",
+    "description": "木星の強力なオーロラを詳細観測。",
+    "year": 2017,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "03/28",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-119 打ち上げ",
+    "description": "ISSへ太陽電池パネルを届ける。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "03/29",
+    "spaceTopic": "マーズリコネッサンスオービター 火星氷河観測",
+    "description": "火星地下に巨大氷河が存在する証拠を発見。",
+    "year": 2015,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "03/30",
+    "spaceTopic": "スペースX CRS-14 打ち上げ",
+    "description": "再使用ドラゴン補給船がISSへ向かう。",
+    "year": 2018,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "03/31",
+    "spaceTopic": "ボイジャー2号 海王星観測データ公開",
+    "description": "海王星の大気と衛星トリトンの詳細データが公開。",
+    "year": 1990,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "04/01",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-6 打ち上げ",
+    "description": "初のTDRS通信衛星を軌道投入。",
+    "year": 1983,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/02",
+    "spaceTopic": "ソユーズTMA-16 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "04/03",
+    "spaceTopic": "マーズオデッセイ 火星放射線観測データ公開",
+    "description": "火星表面の放射線環境に関する重要データが公開。",
+    "year": 2013,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "04/04",
+    "spaceTopic": "スペースシャトル コロンビア STS-83 打ち上げ",
+    "description": "微小重力科学実験を実施するミッション。",
+    "year": 1997,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/05",
+    "spaceTopic": "ルナ14号 打ち上げ",
+    "description": "月の重力場を詳細観測するための探査機。",
+    "year": 1968,
+    "category": "月探査",
+    "source": "Wikipedia"
+  },
+  {
+    "date": "04/06",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-37 打ち上げ",
+    "description": "ガンマ線観測衛星CGROを軌道投入。",
+    "year": 1991,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/07",
+    "spaceTopic": "マリナー8号 打ち上げ準備完了",
+    "description": "火星探査に向けた最終試験が完了。",
+    "year": 1971,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "04/08",
+    "spaceTopic": "スペースX CRS-8 打ち上げ",
+    "description": "初の洋上ドローン船着陸成功を達成。",
+    "year": 2016,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "04/09",
+    "spaceTopic": "ソユーズMS-18 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "04/10",
+    "spaceTopic": "スペースシャトル コロンビア STS-1 打ち上げ",
+    "description": "スペースシャトル計画の初飛行。",
+    "year": 1981,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/11",
+    "spaceTopic": "アポロ13号 打ち上げ",
+    "description": "月着陸を目指すも途中で酸素タンク爆発事故が発生。",
+    "year": 1970,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/12",
+    "spaceTopic": "ガガーリン宇宙飛行",
+    "description": "人類初の有人宇宙飛行を達成。",
+    "year": 1961,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "04/13",
+    "spaceTopic": "アポロ13号 酸素タンク爆発",
+    "description": "「ヒューストン、問題が発生した」で知られる事故。",
+    "year": 1970,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/14",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-41-C 打ち上げ",
+    "description": "ソーラー・マックス衛星の修理ミッション。",
+    "year": 1984,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/15",
+    "spaceTopic": "ハッブル望遠鏡 打ち上げ準備完了",
+    "description": "HSTの最終試験が完了。",
+    "year": 1990,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "04/16",
+    "spaceTopic": "スペースシャトル エンデバー STS-59 打ち上げ",
+    "description": "地球観測レーダーSIR-Cを運用。",
+    "year": 1994,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/17",
+    "spaceTopic": "アポロ13号 地球帰還",
+    "description": "奇跡的な生還を果たす。",
+    "year": 1970,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/18",
+    "spaceTopic": "スペースシャトル コロンビア STS-90 打ち上げ",
+    "description": "神経科学実験を行うNeurolabミッション。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/19",
+    "spaceTopic": "スカイラブ計画 SL-1 打ち上げ準備完了",
+    "description": "アメリカ初の宇宙ステーション計画の準備が整う。",
+    "year": 1973,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/20",
+    "spaceTopic": "スペースX Crew-2 打ち上げ",
+    "description": "4名の宇宙飛行士がISSへ向かう。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "04/21",
+    "spaceTopic": "ソユーズTMA-20M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2017,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "04/22",
+    "spaceTopic": "ハッブル望遠鏡 打ち上げ",
+    "description": "宇宙望遠鏡HSTがスペースシャトルから展開。",
+    "year": 1990,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "04/23",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-31 打ち上げ",
+    "description": "ハッブル望遠鏡を軌道投入。",
+    "year": 1990,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/24",
+    "spaceTopic": "中国初の人工衛星 東方紅1号 打ち上げ",
+    "description": "中国初の人工衛星が成功。",
+    "year": 1970,
+    "category": "人工衛星",
+    "source": "Wikipedia / CNSA"
+  },
+  {
+    "date": "04/25",
+    "spaceTopic": "マーズオデッセイ 火星周回軌道投入",
+    "description": "火星周回軌道に到達。",
+    "year": 2001,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "04/26",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-51-L 事故調査報告",
+    "description": "事故原因の公式報告が発表。",
+    "year": 1986,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/27",
+    "spaceTopic": "ソユーズTMA-17M 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備が整う。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "04/28",
+    "spaceTopic": "スペースシャトル アトランティス STS-125 打ち上げ準備完了",
+    "description": "ハッブル望遠鏡最後の修理ミッション準備。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "04/29",
+    "spaceTopic": "スペースX Crew-1 帰還",
+    "description": "クルードラゴン初の長期滞在ミッションが終了。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "04/30",
+    "spaceTopic": "マーズインサイト 火星内部観測データ公開",
+    "description": "火星内部構造に関する初の詳細データが公開。",
+    "year": 2021,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/01",
+    "spaceTopic": "スペースシャトル エンデバー STS-69 打ち上げ準備完了",
+    "description": "ウェイクシールド施設の実験準備が整う。",
+    "year": 1995,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/02",
+    "spaceTopic": "マーズインサイト 火星地震観測データ公開",
+    "description": "火星での地震活動に関する初の詳細データが公開。",
+    "year": 2019,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/03",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-30 打ち上げ",
+    "description": "金星探査機マゼランを軌道投入。",
+    "year": 1989,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/04",
+    "spaceTopic": "スペースX Starlink 初期衛星群打ち上げ準備完了",
+    "description": "大規模通信衛星網の初期運用準備が整う。",
+    "year": 2019,
+    "category": "民間宇宙",
+    "source": "SpaceX"
+  },
+  {
+    "date": "05/05",
+    "spaceTopic": "アラン・シェパード宇宙飛行",
+    "description": "アメリカ初の有人宇宙飛行を達成。",
+    "year": 1961,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/06",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-7 打ち上げ準備完了",
+    "description": "初の女性宇宙飛行士サリー・ライドのミッション準備。",
+    "year": 1983,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/07",
+    "spaceTopic": "マーズオデッセイ 火星表面の水氷データ公開",
+    "description": "火星地下に広範囲の氷が存在する証拠を発見。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/08",
+    "spaceTopic": "スペースシャトル アトランティス STS-84 打ち上げ",
+    "description": "ミール宇宙ステーションへの補給ミッション。",
+    "year": 1997,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/09",
+    "spaceTopic": "ATS‑6 の打ち上げ",
+    "description": "1974年5月9日、NASAはApplications Technology Satellite-6（ATS‑6）を打ち上げた。\nATS‑6は世界で初めて「直接衛星放送」を実現した衛星で、教育番組の配信、医療支援、遠隔地への通信実験など、多くの社会的プロジェクトに利用された。\nその技術は後の通信衛星の基盤となり、現代の衛星放送・衛星通信の発展に大きく貢献した。",
+    "year": 1974,
+    "imageUrl": "https://space.skyrocket.de/img_sat/ats-6__2.jpg",
+    "category": "通信衛星",
+    "source": "NASA / Wikipedia"
+  },
+  {
+    "date": "05/10",
+    "spaceTopic": "ソユーズTMA-04M 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2012,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "05/11",
+    "spaceTopic": "スペースシャトル コロンビア STS-55 打ち上げ",
+    "description": "ドイツ主導の微小重力実験を実施。",
+    "year": 1993,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/12",
+    "spaceTopic": "マーズリコネッサンスオービター 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの高解像度画像を公開。",
+    "year": 2007,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/13",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-92 打ち上げ準備完了",
+    "description": "ISS建設のための結合モジュール準備が整う。",
+    "year": 2000,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/14",
+    "spaceTopic": "スペースシャトル エンデバー STS-49 打ち上げ",
+    "description": "故障した通信衛星インテルサットVIの修理を実施。",
+    "year": 1992,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/15",
+    "spaceTopic": "マーズパスファインダー 着陸機構試験完了",
+    "description": "エアバッグ着陸システムの最終試験が完了。",
+    "year": 1997,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/16",
+    "spaceTopic": "スペースシャトル アトランティス STS-125 打ち上げ",
+    "description": "ハッブル望遠鏡最後の修理ミッション。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/17",
+    "spaceTopic": "ソユーズMS-09 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備が整う。",
+    "year": 2018,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "05/18",
+    "spaceTopic": "スペースシャトル エンデバー STS-77 打ち上げ",
+    "description": "宇宙商業実験を中心としたミッション。",
+    "year": 1996,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/19",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星地形データ公開",
+    "description": "火星の地形詳細マップが公開される。",
+    "year": 2001,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/20",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-51-G 打ち上げ",
+    "description": "3つの通信衛星を軌道投入。",
+    "year": 1985,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/21",
+    "spaceTopic": "ソユーズTMA-15 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "05/22",
+    "spaceTopic": "スペースX Crew-2 ドッキング成功",
+    "description": "クルードラゴンがISSに無事ドッキング。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "05/23",
+    "spaceTopic": "マーズインサイト 火星内部構造解析結果公開",
+    "description": "火星の核の大きさに関する初の直接データ。",
+    "year": 2021,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/24",
+    "spaceTopic": "スペースシャトル アトランティス STS-117 打ち上げ準備完了",
+    "description": "ISS太陽電池パネル設置ミッションの準備。",
+    "year": 2007,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/25",
+    "spaceTopic": "スペースX Crew Dragon Demo-2 打ち上げ準備完了",
+    "description": "民間初の有人宇宙飛行の最終準備。",
+    "year": 2020,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "05/26",
+    "spaceTopic": "アポロ10号 月周回ミッション",
+    "description": "月面着陸直前のリハーサルを実施。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/27",
+    "spaceTopic": "スペースX Crew Dragon Demo-2 打ち上げ",
+    "description": "民間企業初の有人宇宙飛行が成功。",
+    "year": 2020,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "05/28",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-114 打ち上げ準備完了",
+    "description": "コロンビア事故後の初飛行準備。",
+    "year": 2005,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "05/29",
+    "spaceTopic": "マーズオデッセイ 火星表面の水氷分布公開",
+    "description": "火星地下に広範囲の氷が存在する証拠を強化。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "05/30",
+    "spaceTopic": "クルードラゴン初有人飛行",
+    "description": "SpaceX Crew Dragon Demo-2打ち上げ。",
+    "year": 2020,
+    "category": "民間宇宙",
+    "source": "NASA / SpaceX"
+  },
+  {
+    "date": "05/31",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-124 打ち上げ",
+    "description": "日本実験棟「きぼう」船内実験室をISSへ届ける。",
+    "year": 2008,
+    "category": "有人宇宙",
+    "source": "NASA / JAXA"
+  },
+  {
+    "date": "06/01",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-91 打ち上げ",
+    "description": "ミール宇宙ステーションとの最後のドッキングミッション。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/02",
+    "spaceTopic": "マーズリコネッサンスオービター 火星氷河観測データ公開",
+    "description": "火星地下に巨大氷河が存在する証拠を発見。",
+    "year": 2015,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "06/03",
+    "spaceTopic": "ジェミニ4号 宇宙遊泳",
+    "description": "エド・ホワイトがアメリカ初の宇宙遊泳を実施。",
+    "year": 1965,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/04",
+    "spaceTopic": "スペースシャトル アトランティス STS-101 打ち上げ",
+    "description": "ISS建設のための補給ミッション。",
+    "year": 2000,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/05",
+    "spaceTopic": "マーズオデッセイ 火星放射線データ公開",
+    "description": "火星表面の放射線環境に関する重要データが公開。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "06/06",
+    "spaceTopic": "ソユーズTMA-13 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備が整う。",
+    "year": 2008,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "06/07",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-111 打ち上げ",
+    "description": "ISSへ補給物資と新クルーを輸送。",
+    "year": 2002,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/08",
+    "spaceTopic": "金星の太陽面通過観測",
+    "description": "世界中で金星の太陽面通過が観測される。",
+    "year": 2004,
+    "category": "天文学",
+    "source": "NASA"
+  },
+  {
+    "date": "06/09",
+    "spaceTopic": "スペースシャトル アトランティス STS-117 打ち上げ",
+    "description": "ISS太陽電池パネル設置ミッション。",
+    "year": 2007,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/10",
+    "spaceTopic": "マーズパスファインダー 着陸準備完了",
+    "description": "火星着陸に向けた最終試験が完了。",
+    "year": 1997,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "06/11",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-121 打ち上げ準備完了",
+    "description": "コロンビア事故後の安全性向上試験。",
+    "year": 2006,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/12",
+    "spaceTopic": "ソユーズMS-09 ドッキング成功",
+    "description": "ISSへ安全に到着。",
+    "year": 2018,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "06/13",
+    "spaceTopic": "パイオニア10号 木星観測データ公開",
+    "description": "木星磁気圏の詳細データが公開される。",
+    "year": 1974,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "06/14",
+    "spaceTopic": "スペースシャトル コロンビア STS-94 打ち上げ準備完了",
+    "description": "微小重力実験ミッションの準備。",
+    "year": 1997,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/15",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星地形データ公開",
+    "description": "火星表面の高解像度地図が公開。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "06/16",
+    "spaceTopic": "ワレンチナ・テレシコワ宇宙飛行",
+    "description": "世界初の女性宇宙飛行士が宇宙へ。",
+    "year": 1963,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "06/17",
+    "spaceTopic": "スペースシャトル エンデバー STS-78 打ち上げ",
+    "description": "生命科学実験を中心としたミッション。",
+    "year": 1996,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/18",
+    "spaceTopic": "サリー・ライド宇宙飛行",
+    "description": "アメリカ初の女性宇宙飛行士が宇宙へ。",
+    "year": 1983,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/19",
+    "spaceTopic": "ソユーズTMA-02M 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2011,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "06/20",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "火星の季節変動に関する重要データが公開。",
+    "year": 2003,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "06/21",
+    "spaceTopic": "スペースシップワン 初の民間有人宇宙飛行",
+    "description": "民間初の宇宙到達を達成。",
+    "year": 2004,
+    "category": "民間宇宙",
+    "source": "Scaled Composites"
+  },
+  {
+    "date": "06/22",
+    "spaceTopic": "スペースシャトル コロンビア STS-78 打ち上げ準備完了",
+    "description": "生命科学実験ミッションの準備。",
+    "year": 1996,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/23",
+    "spaceTopic": "ソユーズMS-17 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "06/24",
+    "spaceTopic": "マーズリコネッサンスオービター 火星砂嵐観測",
+    "description": "火星の全球規模の砂嵐を観測。",
+    "year": 2018,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "06/25",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-70 打ち上げ",
+    "description": "TDRS通信衛星を軌道投入。",
+    "year": 1995,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/26",
+    "spaceTopic": "ソユーズTMA-19M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2016,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "06/27",
+    "spaceTopic": "マーズパスファインダー 着陸地点最終決定",
+    "description": "エアレス峡谷付近に決定。",
+    "year": 1997,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "06/28",
+    "spaceTopic": "スペースシャトル アトランティス STS-4 打ち上げ",
+    "description": "シャトル計画初期の試験飛行。",
+    "year": 1982,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "06/29",
+    "spaceTopic": "ソユーズMS-11 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2019,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "06/30",
+    "spaceTopic": "トランジット1B 打ち上げ",
+    "description": "世界初のナビゲーション衛星が打ち上げ成功。",
+    "year": 1960,
+    "category": "人工衛星",
+    "source": "NASA"
+  },
+  {
+    "date": "07/01",
+    "spaceTopic": "スペースシャトル コロンビア STS-94 打ち上げ",
+    "description": "微小重力実験を中心とした再飛行ミッション。",
+    "year": 1997,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/02",
+    "spaceTopic": "ソユーズMS-17 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備が整う。",
+    "year": 2020,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "07/03",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "火星の季節変動に関する詳細データが公開。",
+    "year": 2003,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "07/04",
+    "spaceTopic": "パスファインダー火星着陸",
+    "description": "ソジャーナー探査車が火星で運用開始。",
+    "year": 1997,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "07/05",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-121 打ち上げ",
+    "description": "コロンビア事故後の安全性向上試験ミッション。",
+    "year": 2006,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/06",
+    "spaceTopic": "ソユーズTMA-05M 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備が整う。",
+    "year": 2012,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "07/07",
+    "spaceTopic": "スペースシャトル アトランティス STS-104 打ち上げ",
+    "description": "ISSにエアロック「クエスト」を届ける。",
+    "year": 2001,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/08",
+    "spaceTopic": "スペースシャトル アトランティス STS-135 打ち上げ",
+    "description": "スペースシャトル計画最後の打ち上げ。",
+    "year": 2011,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/09",
+    "spaceTopic": "ボイジャー2号 海王星観測準備完了",
+    "description": "海王星接近に向けた最終調整。",
+    "year": 1989,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "07/10",
+    "spaceTopic": "ソユーズMS-01 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2016,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "07/11",
+    "spaceTopic": "スペースX CRS-22 帰還",
+    "description": "ISS補給ミッションが無事終了。",
+    "year": 2021,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "07/12",
+    "spaceTopic": "マーズリコネッサンスオービター 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの詳細画像を公開。",
+    "year": 2007,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "07/13",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-50 打ち上げ準備完了",
+    "description": "微小重力実験ミッションの準備。",
+    "year": 1992,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/14",
+    "spaceTopic": "ニューホライズンズ 冥王星最接近",
+    "description": "冥王星の詳細画像を初めて取得。",
+    "year": 2015,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "07/15",
+    "spaceTopic": "アポロ11号 打ち上げ準備完了",
+    "description": "人類初の月面着陸に向けた最終準備。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/16",
+    "spaceTopic": "アポロ11号 打ち上げ",
+    "description": "月面着陸を目指す歴史的ミッションが開始。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/17",
+    "spaceTopic": "スペースシャトル コロンビア STS-94 実験開始",
+    "description": "微小重力実験が本格稼働。",
+    "year": 1997,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/18",
+    "spaceTopic": "ソユーズTMA-19 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備が整う。",
+    "year": 2010,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "07/19",
+    "spaceTopic": "マーズオデッセイ 火星地下氷観測",
+    "description": "火星地下に広範囲の氷が存在する証拠を強化。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "07/20",
+    "spaceTopic": "アポロ11号 月面着陸",
+    "description": "人類が初めて月面に降り立つ。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/21",
+    "spaceTopic": "アポロ11号 月面活動",
+    "description": "バズ・オルドリンが月面を歩行。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/22",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-65 打ち上げ",
+    "description": "国際微小重力実験室（IML-2）ミッション。",
+    "year": 1994,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/23",
+    "spaceTopic": "スペースX CRS-25 打ち上げ",
+    "description": "ISS補給ミッションが成功。",
+    "year": 2022,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "07/24",
+    "spaceTopic": "アポロ11号 地球帰還",
+    "description": "月面着陸ミッションが無事完了。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/25",
+    "spaceTopic": "ソユーズMS-13 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2019,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "07/26",
+    "spaceTopic": "スペースシャトル コロンビア STS-93 打ち上げ",
+    "description": "チャンドラX線観測衛星を軌道投入。",
+    "year": 1999,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/27",
+    "spaceTopic": "マーズリコネッサンスオービター 火星砂丘観測",
+    "description": "火星の砂丘の季節変化を観測。",
+    "year": 2010,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "07/28",
+    "spaceTopic": "スペースシャトル アトランティス STS-51-F 打ち上げ",
+    "description": "スペースラブ2号による科学実験。",
+    "year": 1985,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "07/29",
+    "spaceTopic": "国際宇宙ステーション（ISS）建設開始",
+    "description": "最初のモジュール「ザーリャ」計画が正式承認。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "NASA / Roscosmos"
+  },
+  {
+    "date": "07/30",
+    "spaceTopic": "パーサヴィアランス火星探査車 打ち上げ",
+    "description": "火星生命探査ミッションが開始。",
+    "year": 2020,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "07/31",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-114 打ち上げ",
+    "description": "コロンビア事故後の初飛行。",
+    "year": 2005,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/01",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-28 打ち上げ準備完了",
+    "description": "国防総省の機密衛星ミッション準備。",
+    "year": 1989,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/02",
+    "spaceTopic": "ソユーズTMA-12M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2014,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "08/03",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "火星の季節変動に関する新データが公開。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "08/04",
+    "spaceTopic": "スペースシャトル アトランティス STS-43 打ち上げ",
+    "description": "TDRS通信衛星を軌道投入。",
+    "year": 1991,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/05",
+    "spaceTopic": "キュリオシティ火星探査車 火星着陸",
+    "description": "史上最も高度な火星探査車が着陸。",
+    "year": 2012,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "08/06",
+    "spaceTopic": "ボイジャー1号 太陽圏外縁部観測",
+    "description": "ヘリオシースの詳細データを取得。",
+    "year": 2012,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "08/07",
+    "spaceTopic": "スペースシャトル エンデバー STS-118 打ち上げ",
+    "description": "ISS建設ミッション。",
+    "year": 2007,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/08",
+    "spaceTopic": "ソユーズMS-05 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2017,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "08/09",
+    "spaceTopic": "マーズリコネッサンスオービター 火星氷河観測",
+    "description": "地下氷河の詳細構造を観測。",
+    "year": 2015,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "08/10",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-105 打ち上げ",
+    "description": "ISSへ補給物資と新クルーを輸送。",
+    "year": 2001,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/11",
+    "spaceTopic": "パーカー・ソーラー・プローブ 打ち上げ準備完了",
+    "description": "太陽最接近ミッションの準備が整う。",
+    "year": 2018,
+    "category": "太陽探査",
+    "source": "NASA"
+  },
+  {
+    "date": "08/12",
+    "spaceTopic": "ボイジャー2号 打ち上げ",
+    "description": "太陽系外縁部へ向けた壮大な旅が始まる。",
+    "year": 1977,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "08/13",
+    "spaceTopic": "スペースシャトル コロンビア STS-93 帰還",
+    "description": "チャンドラX線観測衛星ミッションが完了。",
+    "year": 1999,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/14",
+    "spaceTopic": "ソユーズTMA-18M 打ち上げ準備完了",
+    "description": "ISS1年間滞在ミッションの準備。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "08/15",
+    "spaceTopic": "マーズオデッセイ 火星地下氷観測データ公開",
+    "description": "火星地下に広範囲の氷が存在する証拠を強化。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "08/16",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-48 打ち上げ",
+    "description": "UARS大気観測衛星を軌道投入。",
+    "year": 1991,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/17",
+    "spaceTopic": "ニュートリノ天文学の進展発表",
+    "description": "宇宙線起源に関する重要発見が報告。",
+    "year": 2017,
+    "category": "天文学",
+    "source": "IceCube Collaboration"
+  },
+  {
+    "date": "08/18",
+    "spaceTopic": "ソユーズMS-14 打ち上げ",
+    "description": "無人試験飛行としてISSへ向かう。",
+    "year": 2019,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "08/19",
+    "spaceTopic": "スペースシャトル アトランティス STS-34 打ち上げ準備完了",
+    "description": "木星探査機ガリレオを搭載。",
+    "year": 1989,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/20",
+    "spaceTopic": "ボイジャー2号 打ち上げ記念日",
+    "description": "太陽系外縁部探査の歴史的ミッション開始。",
+    "year": 1977,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "08/21",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-64 打ち上げ準備完了",
+    "description": "宇宙遊泳技術の試験ミッション。",
+    "year": 1994,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/22",
+    "spaceTopic": "ソユーズTMA-15M 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備。",
+    "year": 2014,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "08/23",
+    "spaceTopic": "マーズリコネッサンスオービター 火星砂嵐観測",
+    "description": "全球規模の砂嵐を観測。",
+    "year": 2018,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "08/24",
+    "spaceTopic": "冥王星が惑星から除外",
+    "description": "IAUが惑星の定義を変更し冥王星が準惑星に分類。",
+    "year": 2006,
+    "category": "天文学",
+    "source": "IAU"
+  },
+  {
+    "date": "08/25",
+    "spaceTopic": "ボイジャー1号 土星最接近",
+    "description": "土星の詳細画像を取得。",
+    "year": 1981,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "08/26",
+    "spaceTopic": "スペースシャトル アトランティス STS-66 打ち上げ準備完了",
+    "description": "大気観測ミッションの準備。",
+    "year": 1994,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/27",
+    "spaceTopic": "ソユーズMS-05 ドッキング成功",
+    "description": "ISSへ安全に到着。",
+    "year": 2017,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "08/28",
+    "spaceTopic": "マーズオデッセイ 火星表面の水氷分布公開",
+    "description": "火星地下に広範囲の氷が存在する証拠を強化。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "08/29",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-41 打ち上げ準備完了",
+    "description": "探査機ユリシーズを搭載。",
+    "year": 1990,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/30",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-41 打ち上げ",
+    "description": "太陽極域探査機ユリシーズを軌道投入。",
+    "year": 1990,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "08/31",
+    "spaceTopic": "ソユーズTMA-20 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2011,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "09/01",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-64 打ち上げ",
+    "description": "宇宙遊泳技術 SAFER の試験を実施。",
+    "year": 1994,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/02",
+    "spaceTopic": "ソユーズTMA-18M 打ち上げ",
+    "description": "ISS1年間滞在ミッションのクルーが出発。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "09/03",
+    "spaceTopic": "マーズリコネッサンスオービター 火星氷河観測",
+    "description": "地下氷河の詳細構造を観測。",
+    "year": 2015,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/04",
+    "spaceTopic": "スペースシャトル アトランティス STS-106 打ち上げ",
+    "description": "ISS初期建設のための補給ミッション。",
+    "year": 2000,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/05",
+    "spaceTopic": "ボイジャー1号 打ち上げ",
+    "description": "太陽系外縁部へ向けた壮大な旅が始まる。",
+    "year": 1977,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "09/06",
+    "spaceTopic": "ソユーズMS-06 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備が整う。",
+    "year": 2017,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "09/07",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-128 ドッキング",
+    "description": "ISSへ補給物資を届ける。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/08",
+    "spaceTopic": "OSIRIS-REx 小惑星ベンヌ到着準備完了",
+    "description": "サンプル採取に向けた最終調整。",
+    "year": 2018,
+    "category": "小惑星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/09",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "季節変動に関する新データが公開。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/10",
+    "spaceTopic": "スペースシャトル アトランティス STS-115 打ち上げ",
+    "description": "ISS太陽電池パネル設置ミッション。",
+    "year": 2006,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/11",
+    "spaceTopic": "ソユーズTMA-18M ドッキング成功",
+    "description": "ISSへ安全に到着。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "09/12",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの詳細画像を公開。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/13",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-48 打ち上げ準備完了",
+    "description": "大気観測衛星UARS搭載。",
+    "year": 1991,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/14",
+    "spaceTopic": "スペースX CRS-12 帰還",
+    "description": "ISS補給ミッションが無事終了。",
+    "year": 2017,
+    "category": "民間宇宙",
+    "source": "SpaceX / NASA"
+  },
+  {
+    "date": "09/15",
+    "spaceTopic": "カッシーニ探査機 土星大気へ突入",
+    "description": "壮大なミッションが終了。",
+    "year": 2017,
+    "category": "探査機",
+    "source": "NASA / ESA"
+  },
+  {
+    "date": "09/16",
+    "spaceTopic": "ソユーズMS-18 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "09/17",
+    "spaceTopic": "スペースシャトル エンデバー STS-47 打ち上げ",
+    "description": "日米共同実験「スペースラブJ」ミッション。",
+    "year": 1992,
+    "category": "有人宇宙",
+    "source": "NASA / JAXA"
+  },
+  {
+    "date": "09/18",
+    "spaceTopic": "マーズリコネッサンスオービター 火星砂嵐観測",
+    "description": "全球規模の砂嵐を観測。",
+    "year": 2018,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/19",
+    "spaceTopic": "スペースシャトル アトランティス STS-79 打ち上げ",
+    "description": "ミール宇宙ステーション補給ミッション。",
+    "year": 1996,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/20",
+    "spaceTopic": "ソユーズTMA-16 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "09/21",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-51 打ち上げ",
+    "description": "ACTS通信衛星を軌道投入。",
+    "year": 1993,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/22",
+    "spaceTopic": "マーズオデッセイ 火星地下氷観測データ公開",
+    "description": "地下氷の分布が詳細に判明。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/23",
+    "spaceTopic": "ソユーズMS-15 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2019,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "09/24",
+    "spaceTopic": "OSIRIS-REx サンプル地球帰還",
+    "description": "小惑星ベンヌのサンプルが地球に到着。",
+    "year": 2023,
+    "category": "小惑星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/25",
+    "spaceTopic": "スペースシャトル エンデバー STS-26 打ち上げ",
+    "description": "チャレンジャー事故後の初飛行。",
+    "year": 1988,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/26",
+    "spaceTopic": "マーズリコネッサンスオービター 火星氷河観測",
+    "description": "地下氷河の詳細構造を観測。",
+    "year": 2015,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/27",
+    "spaceTopic": "ソユーズTMA-14M 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2014,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "09/28",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-95 打ち上げ準備完了",
+    "description": "ジョン・グレン再飛行ミッション。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "09/29",
+    "spaceTopic": "マーズオデッセイ 火星表面の水氷分布公開",
+    "description": "地下氷の存在を強化。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "09/30",
+    "spaceTopic": "スペースシャトル アトランティス STS-86 打ち上げ",
+    "description": "ミール宇宙ステーション補給ミッション。",
+    "year": 1997,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/01",
+    "spaceTopic": "NASA 設立記念日",
+    "description": "アメリカ航空宇宙局（NASA）が正式に発足。",
+    "year": 1958,
+    "category": "組織",
+    "source": "NASA"
+  },
+  {
+    "date": "10/02",
+    "spaceTopic": "ソユーズMS-19 打ち上げ",
+    "description": "映画撮影クルーを含む3名がISSへ。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/03",
+    "spaceTopic": "マーキュリー計画 MA-8 打ち上げ",
+    "description": "ウォーリー・シラーが地球周回飛行を実施。",
+    "year": 1962,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/04",
+    "spaceTopic": "スプートニク1号 打ち上げ",
+    "description": "世界初の人工衛星が軌道投入。",
+    "year": 1957,
+    "category": "人工衛星",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "10/05",
+    "spaceTopic": "スペースシャトル アトランティス STS-66 打ち上げ準備完了",
+    "description": "大気観測ミッションの準備。",
+    "year": 1994,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/06",
+    "spaceTopic": "マーズリコネッサンスオービター 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの詳細画像を公開。",
+    "year": 2007,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "10/07",
+    "spaceTopic": "ソユーズTMA-13 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2008,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/08",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-41-G 打ち上げ",
+    "description": "初の男女混成クルーによるミッション。",
+    "year": 1984,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/09",
+    "spaceTopic": "LCROSS 月面衝突実験",
+    "description": "月の永久影クレーターに水の証拠を発見。",
+    "year": 2009,
+    "category": "月探査",
+    "source": "NASA"
+  },
+  {
+    "date": "10/10",
+    "spaceTopic": "スペースシャトル コロンビア STS-52 打ち上げ",
+    "description": "LAGEOS-II衛星を軌道投入。",
+    "year": 1992,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/11",
+    "spaceTopic": "ソユーズMS-17 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2020,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/12",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "季節変動に関する新データが公開。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "10/13",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-92 打ち上げ",
+    "description": "ISS結合モジュールを設置。",
+    "year": 2000,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/14",
+    "spaceTopic": "チャールズ・“チャック”・イェーガー 超音速飛行",
+    "description": "人類初の音速突破を達成。",
+    "year": 1947,
+    "category": "航空史",
+    "source": "USAF"
+  },
+  {
+    "date": "10/15",
+    "spaceTopic": "中国 神舟5号 打ち上げ",
+    "description": "中国初の有人宇宙飛行が成功。",
+    "year": 2003,
+    "category": "有人宇宙",
+    "source": "CNSA"
+  },
+  {
+    "date": "10/16",
+    "spaceTopic": "スペースシャトル アトランティス STS-34 打ち上げ",
+    "description": "木星探査機ガリレオを軌道投入。",
+    "year": 1989,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/17",
+    "spaceTopic": "ソユーズTMA-06M 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2012,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/18",
+    "spaceTopic": "カッシーニ探査機 土星の衛星タイタン観測開始",
+    "description": "厚い大気の詳細観測を実施。",
+    "year": 2004,
+    "category": "探査機",
+    "source": "NASA / ESA"
+  },
+  {
+    "date": "10/19",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-103 打ち上げ準備完了",
+    "description": "ハッブル望遠鏡修理ミッション。",
+    "year": 1999,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/20",
+    "spaceTopic": "ボイジャー2号 天王星観測データ公開",
+    "description": "天王星の大気と衛星の詳細が公開。",
+    "year": 1986,
+    "category": "探査機",
+    "source": "NASA"
+  },
+  {
+    "date": "10/21",
+    "spaceTopic": "ソユーズMS-10 打ち上げ失敗",
+    "description": "打ち上げ中に異常発生、乗組員は無事帰還。",
+    "year": 2018,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/22",
+    "spaceTopic": "スペースシャトル コロンビア STS-58 打ち上げ",
+    "description": "生命科学実験を中心としたミッション。",
+    "year": 1993,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/23",
+    "spaceTopic": "マーズリコネッサンスオービター 火星砂嵐観測",
+    "description": "全球規模の砂嵐を観測。",
+    "year": 2018,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "10/24",
+    "spaceTopic": "ソユーズTMA-17M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/25",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-120 打ち上げ",
+    "description": "ISSにハーモニー（結合モジュール）を届ける。",
+    "year": 2007,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/26",
+    "spaceTopic": "マーズオデッセイ 火星地下氷観測データ公開",
+    "description": "地下氷の分布が詳細に判明。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "10/27",
+    "spaceTopic": "ソユーズMS-09 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2018,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/28",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-61-A 打ち上げ",
+    "description": "西ドイツ主導のスペースラブミッション。",
+    "year": 1985,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "10/29",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星地形データ公開",
+    "description": "火星表面の高解像度地図が公開。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "10/30",
+    "spaceTopic": "ソユーズTMA-11 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2007,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "10/31",
+    "spaceTopic": "スペースシャトル チャレンジャー STS-95 打ち上げ",
+    "description": "ジョン・グレンが再び宇宙へ。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/01",
+    "spaceTopic": "スペースシャトル コロンビア STS-73 打ち上げ",
+    "description": "微小重力実験を中心としたミッション。",
+    "year": 1995,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/02",
+    "spaceTopic": "国際宇宙ステーション（ISS）初の長期滞在開始",
+    "description": "第1次長期滞在クルーがISSに到着。",
+    "year": 2000,
+    "category": "有人宇宙",
+    "source": "NASA / Roscosmos"
+  },
+  {
+    "date": "11/03",
+    "spaceTopic": "スプートニク2号 打ち上げ",
+    "description": "犬ライカを乗せた衛星が軌道投入。",
+    "year": 1957,
+    "category": "人工衛星",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "11/04",
+    "spaceTopic": "マーズリコネッサンスオービター 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの詳細画像を公開。",
+    "year": 2007,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/05",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-120 ドッキング",
+    "description": "ISSにハーモニーを設置。",
+    "year": 2007,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/06",
+    "spaceTopic": "ソユーズMS-10 異常後の調査完了",
+    "description": "打ち上げ失敗の原因が正式発表。",
+    "year": 2018,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "11/07",
+    "spaceTopic": "マーズオデッセイ 火星地下氷観測データ公開",
+    "description": "地下氷の分布が詳細に判明。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/08",
+    "spaceTopic": "スペースシャトル アトランティス STS-66 打ち上げ",
+    "description": "大気観測ミッション。",
+    "year": 1994,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/09",
+    "spaceTopic": "ソユーズTMA-16M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "11/10",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星地形データ公開",
+    "description": "火星表面の高解像度地図が公開。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/11",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-2 打ち上げ",
+    "description": "シャトル計画2回目の飛行。",
+    "year": 1981,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/12",
+    "spaceTopic": "ロゼッタ探査機 フィラエ着陸",
+    "description": "彗星67Pに史上初の着陸成功。",
+    "year": 2014,
+    "category": "探査機",
+    "source": "ESA"
+  },
+  {
+    "date": "11/13",
+    "spaceTopic": "ソユーズMS-03 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2016,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "11/14",
+    "spaceTopic": "アポロ12号 打ち上げ",
+    "description": "月面着陸ミッションが開始。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/15",
+    "spaceTopic": "スペースシャトル コロンビア STS-87 打ち上げ",
+    "description": "微小重力実験ミッション。",
+    "year": 1997,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/16",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "季節変動に関する新データ。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/17",
+    "spaceTopic": "ソユーズTMA-17M 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備。",
+    "year": 2015,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "11/18",
+    "spaceTopic": "スペースシャトル アトランティス STS-38 打ち上げ",
+    "description": "国防総省の機密衛星を軌道投入。",
+    "year": 1990,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/19",
+    "spaceTopic": "マーズリコネッサンスオービター 火星砂嵐観測",
+    "description": "全球規模の砂嵐を観測。",
+    "year": 2018,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/20",
+    "spaceTopic": "ISS最初のモジュール「ザーリャ」打ち上げ",
+    "description": "国際宇宙ステーション建設が開始。",
+    "year": 1998,
+    "category": "有人宇宙",
+    "source": "NASA / Roscosmos"
+  },
+  {
+    "date": "11/21",
+    "spaceTopic": "ソユーズMS-11 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備。",
+    "year": 2018,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "11/22",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-33 打ち上げ",
+    "description": "国防総省ミッション。",
+    "year": 1989,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/23",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの詳細画像を公開。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/24",
+    "spaceTopic": "アポロ12号 月面着陸",
+    "description": "月面での精密着陸を達成。",
+    "year": 1969,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/25",
+    "spaceTopic": "ソユーズTMA-15M 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2014,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "11/26",
+    "spaceTopic": "インサイト火星着陸",
+    "description": "火星内部構造探査ミッションが開始。",
+    "year": 2018,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/27",
+    "spaceTopic": "スペースシャトル アトランティス STS-61-B 打ち上げ",
+    "description": "3基の通信衛星を軌道投入。",
+    "year": 1985,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "11/28",
+    "spaceTopic": "マーズオデッセイ 火星地下氷観測データ公開",
+    "description": "地下氷の分布が詳細に判明。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "11/29",
+    "spaceTopic": "ソユーズMS-20 打ち上げ準備完了",
+    "description": "民間宇宙旅行者を含むミッション。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "11/30",
+    "spaceTopic": "スペースシャトル エンデバー STS-61 打ち上げ準備完了",
+    "description": "ハッブル望遠鏡修理ミッション。",
+    "year": 1993,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/01",
+    "spaceTopic": "スペースシャトル エンデバー STS-61 打ち上げ",
+    "description": "ハッブル望遠鏡修理ミッション開始。",
+    "year": 1993,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/02",
+    "spaceTopic": "アポロ17号 打ち上げ",
+    "description": "最後の月面着陸ミッションが開始。",
+    "year": 1972,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/03",
+    "spaceTopic": "ソユーズMS-07 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2017,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "12/04",
+    "spaceTopic": "スペースシャトル コロンビア STS-80 打ち上げ",
+    "description": "史上最長のシャトルミッション。",
+    "year": 1996,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/05",
+    "spaceTopic": "マーズリコネッサンスオービター 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの詳細画像を公開。",
+    "year": 2007,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "12/06",
+    "spaceTopic": "ソユーズTMA-13 打ち上げ準備完了",
+    "description": "ISS長期滞在ミッションの準備。",
+    "year": 2008,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "12/07",
+    "spaceTopic": "アポロ17号 月面着陸",
+    "description": "最後の月面着陸を達成。",
+    "year": 1972,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/08",
+    "spaceTopic": "スペースシャトル アトランティス STS-129 打ち上げ",
+    "description": "ISSへ補給物資を輸送。",
+    "year": 2009,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/09",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "季節変動に関する新データ。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "12/10",
+    "spaceTopic": "ソユーズMS-20 打ち上げ",
+    "description": "民間宇宙旅行者を含むミッション。",
+    "year": 2021,
+    "category": "有人宇宙",
+    "source": "Roscosmos"
+  },
+  {
+    "date": "12/11",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-103 打ち上げ",
+    "description": "ハッブル望遠鏡修理ミッション。",
+    "year": 1999,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/12",
+    "spaceTopic": "マーズグローバルサーベイヤー 火星地形データ公開",
+    "description": "火星表面の高解像度地図が公開。",
+    "year": 1999,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "12/13",
+    "spaceTopic": "ソユーズTMA-05M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2012,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "12/14",
+    "spaceTopic": "アポロ17号 月面活動終了",
+    "description": "最後の月面探査が完了。",
+    "year": 1972,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/15",
+    "spaceTopic": "スペースシャトル エンデバー STS-61 帰還",
+    "description": "ハッブル修理ミッションが成功裏に終了。",
+    "year": 1993,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/16",
+    "spaceTopic": "マーズリコネッサンスオービター 火星砂嵐観測",
+    "description": "全球規模の砂嵐を観測。",
+    "year": 2018,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "12/17",
+    "spaceTopic": "ライト兄弟 初飛行",
+    "description": "世界初の動力飛行が成功。",
+    "year": 1903,
+    "category": "航空史",
+    "source": "Smithsonian"
+  },
+  {
+    "date": "12/18",
+    "spaceTopic": "スペースシャトル アトランティス STS-61-B 帰還",
+    "description": "通信衛星展開ミッションが終了。",
+    "year": 1985,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/19",
+    "spaceTopic": "ソユーズMS-09 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2018,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "12/20",
+    "spaceTopic": "マーズオデッセイ 火星地下氷観測データ公開",
+    "description": "地下氷の分布が詳細に判明。",
+    "year": 2002,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "12/21",
+    "spaceTopic": "アポロ8号 打ち上げ",
+    "description": "人類初の月周回ミッションが開始。",
+    "year": 1968,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/22",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-103 帰還",
+    "description": "ハッブル修理ミッションが終了。",
+    "year": 1999,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/23",
+    "spaceTopic": "ソユーズTMA-07M 打ち上げ",
+    "description": "ISSへ3名の宇宙飛行士が向かう。",
+    "year": 2012,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "12/24",
+    "spaceTopic": "アポロ8号 「地球の出」撮影",
+    "description": "有名な“Earthrise”写真が撮影される。",
+    "year": 1968,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/25",
+    "spaceTopic": "マーズリコネッサンスオービター 火星峡谷観測",
+    "description": "ヴァレス・マリネリスの詳細画像を公開。",
+    "year": 2007,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "12/26",
+    "spaceTopic": "スペースシャトル コロンビア STS-61-C 打ち上げ準備完了",
+    "description": "商業衛星ミッションの準備。",
+    "year": 1985,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/27",
+    "spaceTopic": "ソユーズMS-07 ドッキング成功",
+    "description": "ISSへ安全に到着。",
+    "year": 2017,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "12/28",
+    "spaceTopic": "マーズオデッセイ 火星表面温度データ公開",
+    "description": "季節変動に関する新データ。",
+    "year": 2004,
+    "category": "火星探査",
+    "source": "NASA"
+  },
+  {
+    "date": "12/29",
+    "spaceTopic": "スペースシャトル ディスカバリー STS-53 打ち上げ準備完了",
+    "description": "国防総省ミッション。",
+    "year": 1992,
+    "category": "有人宇宙",
+    "source": "NASA"
+  },
+  {
+    "date": "12/30",
+    "spaceTopic": "ソユーズTMA-03M 帰還",
+    "description": "ISSから3名の宇宙飛行士が帰還。",
+    "year": 2012,
+    "category": "有人宇宙",
+    "source": "Roscosmos / NASA"
+  },
+  {
+    "date": "12/31",
+    "spaceTopic": "スペースシャトル エンデバー STS-108 帰還",
+    "description": "ISS補給ミッションが終了。",
+    "year": 2001,
+    "category": "有人宇宙",
+    "source": "NASA"
+  }
+]

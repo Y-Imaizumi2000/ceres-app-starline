@@ -1,14 +1,12 @@
-import BaseDialog from "../../components/BaseDialog";
 import type { TodaySpaceImageResponse } from "./types";
 
 type Props = {
   image: TodaySpaceImageResponse;
-  onClose?: () => void;
 };
 
-export function ImageDialog({ image, onClose }: Props) {
+export function ImageDialog({ image }: Props) {
   return (
-    <BaseDialog title={image.title} onClose={onClose}>
+    <>
       {image.mediaType === "image" && image.imageUrl && (
         <img className="space-image" src={image.imageUrl} alt={image.title} />
       )}
@@ -21,14 +19,15 @@ export function ImageDialog({ image, onClose }: Props) {
           style={{ border: "none", aspectRatio: "16/9", width: "100%" }}
         />
       )}
+      <h2 className="subtitle">概要 </h2>
       <div className="image-description-scroll">
-  {image.description.split("\n\n").map((paragraph, index) => (
-    <p className="card-body" key={index}>{paragraph}</p>
-  ))}
-  {image.source && (
-    <p className="meta-text">出典: {image.source}</p>
-  )}
-</div>
-    </BaseDialog>
+        {image.description.split("\n\n").map((paragraph, index) => (
+          <p className="card-body" key={index}>{paragraph}</p>
+        ))}
+        {image.source && (
+          <p className="meta-text">出典: {image.source}</p>
+        )}
+      </div>
+    </>
   );
 }

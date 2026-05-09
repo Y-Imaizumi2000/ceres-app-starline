@@ -7,22 +7,13 @@ import SolarSystemScreen from "../features/solarSystem/SolarSystemScreen";
 
 import {
   checkSkyToday,
-  getSkyCheckStatus,
-  getTodaySpaceHistory
+  getSkyCheckStatus
 } from "../services/apiClient";
-
-import { HistoryDialog } from "../features/todaySpaceHistory/HistoryDialog";
-import type { TodaySpaceHistoryResponse } from "../features/todaySpaceHistory/types";
 
 export function HomeScreen() {
   const navigate = useNavigate();
 
   const [isLoading, setIsLoading] = useState(true);
-
-  // ★ ダイアログ表示フラグ & データ
-  const [showHistory, setShowHistory] = useState(false);
-  const [historyData, setHistoryData] = useState<TodaySpaceHistoryResponse | null>(null);
-  const [showImage, setShowImage] = useState(false);
   const [showTonight, setShowTonight] = useState(false);
 
   useEffect(() => {
@@ -48,16 +39,8 @@ export function HomeScreen() {
 
   // ★ 円形メニュー
   const menuItems = [
-    {
-      id: "history",
-      label: "今日の宇宙史",
-      onSelect: async () => {
-        const data = await getTodaySpaceHistory();
-        setHistoryData(data);
-        setShowHistory(true);
-      }
-    },
-    { id: "image", label: "今日の宇宙画像", onSelect: () => setShowImage(true) },
+    { id: "history", label: "今日の宇宙史", onSelect: () => navigate("/history") },
+    { id: "image", label: "今日の宇宙画像", onSelect: () => navigate("/image") },
     { id: "tonight", label: "今夜見える星", onSelect: () => setShowTonight(true) },
     { id: "solar", label: "太陽系図鑑", onSelect: () => navigate("/solar") },
     { id: "skycheck", label: "今日空見た？", onSelect: () => navigate("/skycheck") },
@@ -75,13 +58,6 @@ export function HomeScreen() {
         <CircleMenu items={menuItems} />
       )}
 
-      {/* ★ ダイアログ表示 */}
-      {showHistory && historyData && (
-        <HistoryDialog history={historyData} onClose={() => setShowHistory(false)} />
-      )}
-      {showImage && ( // 追加
-        <ImageScreen onClose={() => setShowImage(false)} />
-      )}
       {showTonight && (
         <TonightSkyScreen onClose={() => setShowTonight(false)} />
       )}

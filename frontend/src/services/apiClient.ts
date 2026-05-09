@@ -3,15 +3,23 @@ import { SkyCheckStatusResponse } from "../features/skyCheck/types";
 import { TodaySpaceImageResponse } from "../features/todaySpaceImage/types";
 import { TonightSkyResponse } from "../features/tonightSky/types";
 import { SolarSystemPlanetResponse } from "../features/solarSystem/types";
+import todaySpaceHistoryData from "../data/todaySpaceHistory.json";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8080";
 
+function getTodayDateKey(): string {
+  const now = new Date();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${month}/${day}`;
+}
+
 export async function getTodaySpaceHistory(): Promise<TodaySpaceHistoryResponse> {
-  const response = await fetch(`${API_BASE_URL}/api/today-space-history`);
-  if (!response.ok) {
-    throw new Error(`Today space history failed: ${response.status}`);
-  }
-  return response.json();
+  const todayKey = getTodayDateKey();
+  const history =
+    todaySpaceHistoryData.find((item) => item.date === todayKey) ??
+    todaySpaceHistoryData[0];
+  return history;
 }
 
 export async function getSkyCheckStatus(): Promise<SkyCheckStatusResponse> {
