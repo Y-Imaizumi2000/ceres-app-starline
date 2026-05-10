@@ -19,6 +19,10 @@ spring:
 server:
   port: ${SERVER_PORT:8080}
 
+jwt:
+  secret: ${JWT_SECRET:your-super-secret-key-change-this-in-production-environment-with-at-least-256-bits}
+  expiration: ${JWT_EXPIRATION:86400000}
+
 external:
   wikipedia:
     base-url: ${WIKIPEDIA_BASE_URL:https://api.wikimedia.org}

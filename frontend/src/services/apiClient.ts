@@ -5,7 +5,7 @@ import { TonightSkyResponse } from "../features/tonightSky/types";
 import { SolarSystemPlanetResponse } from "../features/solarSystem/types";
 import todaySpaceHistoryData from "../data/todaySpaceHistory.json";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8080";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "";
 
 function getTodayDateKey(): string {
   const now = new Date();
@@ -13,6 +13,74 @@ function getTodayDateKey(): string {
   const day = String(now.getDate()).padStart(2, "0");
   return `${month}/${day}`;
 }
+
+function getAuthHeaders(): HeadersInit {
+  const token = localStorage.getItem("token");
+  const headers: HeadersInit = {
+    "Content-Type": "application/json",
+  };
+  if (token) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+  return headers;
+}
+
+// ========== Auth APIs ==========
+export interface AuthResponse {
+  token: string;
+  userId: number;
+  username: string;
+  displayName: string;
+}
+
+export async function login(email: string, password: string): Promise<AuthResponse> {
+  const response = await fetch(`${API_BASE_URL}/api/auth/login`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ email, password }),
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({ message: "ログインに失敗しました" }));
+    throw new Error(errorData.message || "ログインに失敗しました");
+  }
+
+  return response.json();
+}
+
+export async function signup(
+  userId: string,
+  displayName: string,
+  email: string,
+  password: string,
+  passwordConfirm: string
+): Promise<AuthResponse> {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/auth/signup`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ userId, displayName, email, password, passwordConfirm }),
+    });
+
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({ message: "登録に失敗しました" }));
+      throw new Error(errorData.message || "登録に失敗しました");
+    }
+
+    return response.json();
+  } catch (error) {
+    if (error instanceof Error) {
+      throw new Error(error.message || "登録に失敗しました");
+    }
+    throw new Error("登録に失敗しました");
+  }
+}
+
+// ========== Existing APIs ==========
 
 export async function getTodaySpaceHistory(): Promise<TodaySpaceHistoryResponse> {
   const todayKey = getTodayDateKey();

@@ -1,7 +1,14 @@
 {
+  "scripts": {
+    "dev": "concurrently -k \"npm --prefix frontend run dev\" \"mvn -f backend/pom.xml -Dexec.mainClass=com.starline.StarlineApplication -Dexec.classpathScope=runtime compile exec:java\"",
+    "build": "npm --prefix frontend run build && mvn -q -f backend/pom.xml package"
+  },
   "dependencies": {
     "@react-spring/web": "^10.0.3",
     "@use-gesture/react": "^10.3.1",
     "react-router-dom": "^7.14.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }

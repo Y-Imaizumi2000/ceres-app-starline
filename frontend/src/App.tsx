@@ -4,6 +4,10 @@ import HistoryScreen from "./features/todaySpaceHistory/HistoryScreen";
 import ImageScreen from "./features/todaySpaceImage/ImageScreen";
 import TonightSkyScreen from "./features/tonightSky/TonightSkyScreen";
 import SolarSystemScreen from "./features/solarSystem/SolarSystemScreen";
+import LoginScreen from "./screens/LoginScreen";
+import SignupScreen from "./screens/SignupScreen";
+import { AuthProvider } from "./features/auth/AuthContext";
+import { PrivateRoute } from "./components/PrivateRoute";
 
 export default function App() {
   return (
@@ -25,13 +29,17 @@ export default function App() {
 
       {/* ★ ここからルーティング */}
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/history" element={<HistoryScreen />} />
-          <Route path="/image" element={<ImageScreen />} />
-          <Route path="/tonight" element={<TonightSkyScreen />} />
-          <Route path="/solar" element={<SolarSystemScreen />} />
-        </Routes>
+        <AuthProvider>
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+            <Route path="/login" element={<LoginScreen />} />
+            <Route path="/signup" element={<SignupScreen />} />
+            <Route path="/history" element={<HistoryScreen />} />
+            <Route path="/image" element={<ImageScreen />} />
+            <Route path="/tonight" element={<TonightSkyScreen />} />
+            <Route path="/solar" element={<SolarSystemScreen />} />
+          </Routes>
+        </AuthProvider>
       </BrowserRouter>
     </>
   );
