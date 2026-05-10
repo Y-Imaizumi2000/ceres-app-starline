@@ -1043,18 +1043,20 @@
   },
   {
     "date": "05/10",
-    "spaceTopic": "ソユーズTMA-04M 打ち上げ",
-    "description": "ISSへ3名の宇宙飛行士が向かう。",
-    "year": 2012,
-    "category": "有人宇宙",
-    "source": "Roscosmos / NASA"
+    "spaceTopic": "はやぶさ2 降下リハーサル運用",
+    "description": "2019年5月10日、JAXAの小惑星探査機「はやぶさ2」は、小惑星リュウグウへの着陸に向けた降下リハーサル運用を実施した。\n探査機は目標高度まで安全に降下し、航法・誘導システムやレーザー測距装置などの確認を行った。\nこの運用成果は、その後のタッチダウン成功へ向けた重要なステップとなり、日本の深宇宙探査技術の高さを示した。",
+    "year": 2019,
+    "imageUrl": "https://moonstation.jp/wp-content/uploads/2017/06/hayabusa2-crater-touchdown.jpg",
+    "category": "小惑星探査",
+    "source": "JAXA / Wikipedia"
   },
   {
     "date": "05/11",
-    "spaceTopic": "スペースシャトル コロンビア STS-55 打ち上げ",
-    "description": "ドイツ主導の微小重力実験を実施。",
-    "year": 1993,
-    "category": "有人宇宙",
+    "spaceTopic": "STS‑125：ハッブル宇宙望遠鏡 最終修理ミッション",
+    "description": "2009年5月11日、スペースシャトル・アトランティス（STS‑125）が打ち上げられ、\nハッブル宇宙望遠鏡に対する最後の有人修理ミッションが始まった。\n宇宙飛行士たちは新しい観測装置（WFC3、COS）を取り付け、\nジャイロスコープやバッテリーを交換し、ハッブルの性能と寿命を大幅に延命した。\nこのミッションはハッブルの歴史の中でも特に重要な節目となり、\nその後の十年以上にわたる科学的成果を支える基盤となった。",
+    "year": 2009,
+    "imageUrl": "https://www.nasa.gov/wp-content/uploads/2023/03/346943main_fd3-grapple_full.jpg?resize=300,198",
+    "category": "天文観測",
     "source": "NASA"
   },
   {

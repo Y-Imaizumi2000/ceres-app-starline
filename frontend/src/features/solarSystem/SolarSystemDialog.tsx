@@ -24,7 +24,7 @@ export function SolarSystemDialog({ planets }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animRef = useRef<number>(0);
   const anglesRef = useRef<number[]>(planets.map((_, i) => (i * Math.PI * 2) / planets.length));
-  const [selected, setSelected] = useState<SolarSystemPlanetResponse | null>(null);
+  const [selected, setSelected] = useState<SolarSystemPlanetResponse | null>(planets.length > 0 ? planets[0] : null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -138,6 +138,17 @@ export function SolarSystemDialog({ planets }: Props) {
         style={{ width: "100%", borderRadius: "8px", cursor: "pointer", marginBottom: "16px" }}
         onClick={handleCanvasClick}
       />
+      <div className="planet-list">
+        {planets.map((planet) => (
+          <button
+            key={planet.id}
+            className={`planet-list-item ${selected?.id === planet.id ? "active" : ""}`}
+            onClick={() => setSelected(planet)}
+          >
+            {planet.name}
+          </button>
+        ))}
+      </div>
       {selected ? (
         <div className="solar-detail">
           <p className="solar-detail-name">

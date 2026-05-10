@@ -20,9 +20,6 @@ export default function App() {
       <div className="star-depth-layer2"></div>
       <div className="star-depth-layer3"></div>
       <div className="milkyway-stars"></div>
-
-
-
     </div>
 
 

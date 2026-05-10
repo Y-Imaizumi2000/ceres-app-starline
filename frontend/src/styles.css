@@ -516,35 +516,86 @@ body::after {
   pointer-events: none;
   z-index: 0;
 
-  /* ★ ランダムな星を box-shadow で大量生成 */
+  width: 2px;
+  height: 2px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 50%;
+  box-shadow:
+    120px 40px rgba(255,255,255,0.95),
+    220px 120px rgba(255,255,255,0.88),
+    320px 240px rgba(255,255,255,0.82),
+    420px 160px rgba(255,255,255,0.9),
+    540px 80px rgba(255,255,255,0.75),
+    660px 260px rgba(255,255,255,0.85),
+    760px 180px rgba(255,255,255,0.78),
+    860px 300px rgba(255,255,255,0.9),
+    980px 100px rgba(255,255,255,0.7),
+    1100px 220px rgba(255,255,255,0.82);
+  opacity: 0.55;
+  animation: starDepth3 9s linear infinite;
+  will-change: transform, opacity;
+}
+
+.star-depth-layer3::before,
+.star-depth-layer3::after {
+  content: "";
+  position: absolute;
+  inset: 0;
   width: 2px;
   height: 2px;
   background: rgba(255,255,255,0.9);
   border-radius: 50%;
-
   box-shadow:
-    120px 40px rgba(255,255,255,0.9),
-    300px 180px rgba(255,255,255,0.85),
-    480px 260px rgba(255,255,255,0.8),
-    620px 120px rgba(255,255,255,0.9),
-    800px 300px rgba(255,255,255,0.85),
-    960px 200px rgba(255,255,255,0.9),
-    1100px 80px rgba(255,255,255,0.8),
-    1300px 260px rgba(255,255,255,0.9),
-    1500px 160px rgba(255,255,255,0.85);
-
-  animation: starDepthRandom 7s linear infinite;
-  opacity: 0.55;
+    90px 180px rgba(255,255,255,0.9),
+    250px 40px rgba(255,255,255,0.75),
+    380px 260px rgba(255,255,255,0.86),
+    520px 140px rgba(255,255,255,0.82),
+    660px 80px rgba(255,255,255,0.7),
+    760px 280px rgba(255,255,255,0.88),
+    900px 120px rgba(255,255,255,0.8),
+    1040px 200px rgba(255,255,255,0.9);
+  opacity: 0.42;
 }
 
-/* ★ 奥→手前の動き（拡大＋軽い移動） */
-@keyframes starDepthRandom {
+.star-depth-layer3::before {
+  animation: starDepth3b 11s linear infinite;
+}
+
+.star-depth-layer3::after {
+  animation: starDepth3c 14s linear infinite;
+  opacity: 0.3;
+}
+
+/* ★ 奥→手前の動き（拡大＋移動＋微妙な位置ずれ） */
+@keyframes starDepth3 {
   0% {
-    transform: scale(0.4) translate(-80px, -40px);
+    transform: translate(-120px, -80px) scale(0.4);
     opacity: 0.15;
   }
   100% {
-    transform: scale(1.4) translate(80px, 40px);
+    transform: translate(140px, 120px) scale(1.8);
+    opacity: 0.72;
+  }
+}
+
+@keyframes starDepth3b {
+  0% {
+    transform: translate(50px, -100px) scale(0.35);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translate(-100px, 150px) scale(1.6);
+    opacity: 0.68;
+  }
+}
+
+@keyframes starDepth3c {
+  0% {
+    transform: translate(-60px, 90px) scale(0.45);
+    opacity: 0.12;
+  }
+  100% {
+    transform: translate(120px, -110px) scale(1.7);
     opacity: 0.65;
   }
 }
@@ -574,6 +625,9 @@ body::after {
 
   opacity: 0.38;
 }
+
+
+
 
 
 /* ===== ダイアログのオーバーレイ ===== */
@@ -792,6 +846,41 @@ body::after {
 .location-select:focus {
   border-color: rgba(120, 150, 255, 0.6);
   box-shadow: 0 0 8px rgba(120, 150, 255, 0.3);
+}
+
+/* ===== 太陽系図鑑の惑星選択リスト ===== */
+.planet-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.planet-list-item {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  min-width: 60px;
+  text-align: center;
+}
+
+.planet-list-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+.planet-list-item.active {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .location-select:disabled {
