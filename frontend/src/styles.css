@@ -1088,6 +1088,17 @@ body::after {
   text-align: center;
 }
 
+.success-message {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: rgba(80, 170, 255, 0.12);
+  border: 1px solid rgba(80, 170, 255, 0.3);
+  border-radius: 8px;
+  color: #d4f1ff;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
 .auth-button {
   padding: 12px;
   background: rgba(120, 150, 255, 0.3);

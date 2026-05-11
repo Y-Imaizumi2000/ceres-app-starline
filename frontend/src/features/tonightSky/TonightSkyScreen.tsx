@@ -11,6 +11,7 @@ export default function TonightSkyScreen() {
   const navigate = useNavigate();
   const [sky, setSky] = useState<TonightSkyResponse | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [showInput, setShowInput] = useState(false);
   const [selectedPref, setSelectedPref] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
@@ -32,9 +33,17 @@ export default function TonightSkyScreen() {
 
   const loadSky = async (location: string) => {
     setLoading(true);
-    const data = await getTonightSky(location);
-    setSky(data);
-    setLoading(false);
+    setError(null);
+    try {
+      const data = await getTonightSky(location);
+      setSky(data);
+    } catch (err) {
+      console.error("Failed to load tonight sky:", err);
+      const message = err instanceof Error ? err.message : "星空情報の読み込みに失敗しました";
+      setError(message);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = () => {
@@ -50,6 +59,22 @@ export default function TonightSkyScreen() {
       <button className="back-button" onClick={() => navigate("/")}>← ホームへ</button>
       <h1 className="title">今夜見える星</h1>
       <p className="subtitle">観測地点を設定して、今夜みえる星をチェックしましょう。</p>
+
+      {error && (
+        <div className="quiet-card" style={{ color: "#ff6b6b", padding: "20px" }}>
+          <p>❌ {error}</p>
+          <button 
+            onClick={() => {
+              setError(null);
+              const saved = localStorage.getItem(LOCATION_KEY);
+              if (saved) loadSky(saved);
+            }} 
+            style={{ marginTop: "10px", padding: "8px 16px" }}
+          >
+            再試行
+          </button>
+        </div>
+      )}
 
       {showInput ? (
         <div className="quiet-card">
@@ -101,6 +126,7 @@ export default function TonightSkyScreen() {
               localStorage.removeItem(LOCATION_KEY);
               setShowInput(true);
               setSky(null);
+              setError(null);
             }}
           />
       )}

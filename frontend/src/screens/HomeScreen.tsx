@@ -46,8 +46,8 @@ export function HomeScreen() {
     { id: "image", label: "今日の宇宙画像", onSelect: () => navigate("/image") },
     { id: "tonight", label: "今夜見える星", onSelect: () => navigate("/tonight") },
     { id: "solar", label: "太陽系図鑑", onSelect: () => navigate("/solar") },
-    { id: "skycheck", label: "今日空見た？", onSelect: () => navigate("/skycheck") },
-    { id: "share", label: "空の共有", onSelect: () => navigate("/share") }
+    { id: "share", label: "星結び", onSelect: () => navigate("/share") },
+    { id: "mypage", label: "マイページ", onSelect: () => navigate("/mypage") }
   ];
 
   return (

@@ -7,6 +7,21 @@ import todaySpaceHistoryData from "../data/todaySpaceHistory.json";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "";
 
+export { API_BASE_URL };
+
+// ========== Health Check ==========
+export async function checkBackendHealth(): Promise<boolean> {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/health`, { 
+      method: "GET",
+      signal: AbortSignal.timeout(5000) // 5秒のタイムアウト
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
 function getTodayDateKey(): string {
   const now = new Date();
   const month = String(now.getMonth() + 1).padStart(2, "0");
@@ -80,6 +95,91 @@ export async function signup(
   }
 }
 
+// ========== User Profile APIs ==========
+export interface UserProfile {
+  userId: number;
+  username: string;
+  displayName: string;
+  email: string;
+  bio: string;
+  iconUrl: string;
+}
+
+export async function getProfile(): Promise<UserProfile> {
+  const response = await fetch(`${API_BASE_URL}/api/users/profile`, {
+    method: "GET",
+    headers: getAuthHeaders(),
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({ message: "プロフィール取得に失敗しました" }));
+    throw new Error(errorData.message || "プロフィール取得に失敗しました");
+  }
+
+  return response.json();
+}
+
+export async function updateProfile(
+  displayName: string,
+  email: string,
+  bio: string,
+  iconUrl: string
+): Promise<UserProfile> {
+  const response = await fetch(`${API_BASE_URL}/api/users/profile`, {
+    method: "PUT",
+    headers: getAuthHeaders(),
+    body: JSON.stringify({ displayName, email, bio, iconUrl }),
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({ message: "プロフィール更新に失敗しました" }));
+    throw new Error(errorData.message || "プロフィール更新に失敗しました");
+  }
+
+  return response.json();
+}
+
+export async function changePassword(
+  currentPassword: string,
+  newPassword: string,
+  newPasswordConfirm: string
+): Promise<void> {
+  const response = await fetch(`${API_BASE_URL}/api/users/password`, {
+    method: "PUT",
+    headers: getAuthHeaders(),
+    body: JSON.stringify({ currentPassword, newPassword, newPasswordConfirm }),
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({ message: "パスワード変更に失敗しました" }));
+    throw new Error(errorData.message || "パスワード変更に失敗しました");
+  }
+}
+
+export async function uploadProfileIcon(iconFile: File): Promise<{ iconUrl: string }> {
+  const formData = new FormData();
+  formData.append('icon', iconFile);
+
+  const token = localStorage.getItem("token");
+  const headers: HeadersInit = {};
+  if (token) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+
+  const response = await fetch(`${API_BASE_URL}/api/users/profile/icon`, {
+    method: "POST",
+    headers: headers,
+    body: formData,
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({ message: "アイコンアップロードに失敗しました" }));
+    throw new Error(errorData.message || "アイコンアップロードに失敗しました");
+  }
+
+  return response.json();
+}
+
 // ========== Existing APIs ==========
 
 export async function getTodaySpaceHistory(): Promise<TodaySpaceHistoryResponse> {
@@ -91,45 +191,96 @@ export async function getTodaySpaceHistory(): Promise<TodaySpaceHistoryResponse>
 }
 
 export async function getSkyCheckStatus(): Promise<SkyCheckStatusResponse> {
-  const response = await fetch(`${API_BASE_URL}/api/sky-check/today`);
-  if (!response.ok) {
-    throw new Error(`Sky check status failed: ${response.status}`);
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/sky-check/today`);
+    if (!response.ok) {
+      throw new Error(`サーバーエラー: ${response.status}`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error instanceof TypeError && error.message.includes("Failed to fetch")) {
+      throw new Error(
+        `バックエンドサーバーに接続できません。\n` +
+        `確認: バックエンドが起動しているか確認してください。`
+      );
+    }
+    throw error;
   }
-  return response.json();
 }
 
 export async function getTodaySpaceImage(): Promise<TodaySpaceImageResponse> {
-  const response = await fetch(`${API_BASE_URL}/api/today-space-image`);
-  if (!response.ok) {
-    throw new Error(`Today space image failed: ${response.status}`);
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/today-space-image`);
+    if (!response.ok) {
+      throw new Error(`サーバーエラー: ${response.status}`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error instanceof TypeError && error.message.includes("Failed to fetch")) {
+      throw new Error(
+        `バックエンドサーバーに接続できません。\n` +
+        `設定: ${API_BASE_URL || "(未設定)"}\n` +
+        `確認: バックエンドが起動しているか、ポート番号が正しいか確認してください。`
+      );
+    }
+    throw error;
   }
-  return response.json();
 }
 
 export async function getTonightSky(location: string): Promise<TonightSkyResponse> {
-  const response = await fetch(
-    `${API_BASE_URL}/api/tonight-sky?location=${encodeURIComponent(location)}`
-  );
-  if (!response.ok) {
-    throw new Error(`Tonight sky failed: ${response.status}`);
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/api/tonight-sky?location=${encodeURIComponent(location)}`
+    );
+    if (!response.ok) {
+      throw new Error(`サーバーエラー: ${response.status}`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error instanceof TypeError && error.message.includes("Failed to fetch")) {
+      throw new Error(
+        `バックエンドサーバーに接続できません。\n` +
+        `確認: バックエンドが起動しているか確認してください。`
+      );
+    }
+    throw error;
   }
-  return response.json();
 }
 
 export async function getSolarSystemPlanets(): Promise<SolarSystemPlanetResponse[]> {
-  const response = await fetch(`${API_BASE_URL}/api/solar-system/planets`);
-  if (!response.ok) {
-    throw new Error(`Solar system planets failed: ${response.status}`);
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/solar-system/planets`);
+    if (!response.ok) {
+      throw new Error(`サーバーエラー: ${response.status}`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error instanceof TypeError && error.message.includes("Failed to fetch")) {
+      throw new Error(
+        `バックエンドサーバーに接続できません。\n` +
+        `確認: バックエンドが起動しているか確認してください。`
+      );
+    }
+    throw error;
   }
-  return response.json();
 }
 
 export async function checkSkyToday(): Promise<SkyCheckStatusResponse> {
-  const response = await fetch(`${API_BASE_URL}/api/sky-check/today`, {
-    method: "POST"
-  });
-  if (!response.ok) {
-    throw new Error(`Sky check update failed: ${response.status}`);
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/sky-check/today`, {
+      method: "POST"
+    });
+    if (!response.ok) {
+      throw new Error(`サーバーエラー: ${response.status}`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error instanceof TypeError && error.message.includes("Failed to fetch")) {
+      throw new Error(
+        `バックエンドサーバーに接続できません。\n` +
+        `確認: バックエンドが起動しているか確認してください。`
+      );
+    }
+    throw error;
   }
-  return response.json();
 }

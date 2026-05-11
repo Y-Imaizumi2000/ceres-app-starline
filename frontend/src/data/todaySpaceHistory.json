@@ -1061,12 +1061,13 @@
   },
   {
     "date": "05/12",
-    "spaceTopic": "マーズリコネッサンスオービター 火星峡谷観測",
-    "description": "ヴァレス・マリネリスの高解像度画像を公開。",
-    "year": 2007,
-    "category": "火星探査",
-    "source": "NASA"
-  },
+    "spaceTopic": "ルナ5号 月面衝突",
+    "description": "ソ連の月探査機「ルナ5号」が、人類初の月面軟着陸を目指して月へ向かったが、着陸直前に降下制御システムの不具合が発生し、月面へ衝突した。\nこの失敗は後続のルナ計画に活かされ、翌年のルナ9号による世界初の月面軟着陸成功へとつながった。",
+    "year": 1965,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Moon_map_Smart_1_Ranger_9_Luna_5_Surveyor_7_Apollo_14.png/250px-Moon_map_Smart_1_Ranger_9_Luna_5_Surveyor_7_Apollo_14.png",
+    "category": "月探査",
+    "source": "NASA / NSSDC"
+},
   {
     "date": "05/13",
     "spaceTopic": "スペースシャトル ディスカバリー STS-92 打ち上げ準備完了",

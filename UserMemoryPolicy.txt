@@ -7,3 +7,20 @@
 - 個人情報、一時的な予定、その場限りの内容は保存しない
 - 既に同じ内容がある場合は追記せず更新する
 - 追記内容は簡潔に1行で記録する
+
+## 記録内容
+
+### API エラーハンドリング (2026-05-11)
+- /image エンドポイント呼び出しエラー原因：バックエンドサーバーが起動していない場合の接続エラー（ERR_CONNECTION_REFUSED）
+- 再発防止：各 API 関数に try-catch を追加し、TypeError("Failed to fetch") をキャッチして明確なエラーメッセージ表示
+- 実装箇所：apiClient.ts の getTodaySpaceImage、getTonightSky、getSolarSystemPlanets、checkSkyToday、getSkyCheckStatus に同様パターン適用
+- App.tsx に checkBackendHealth() 追加（30秒間隔で接続確認）
+- ImageScreen.tsx にエラー状態表示と再試行ボタン実装
+
+### YAML 重複キー修正 (2026-05-11)
+- application.yml で spring: キーが重複定義されていた問題を修正
+- 再発防止：YAMLファイル冒頭に重複キー禁止のコメントを追加、設定構造を明確化
+
+### バックエンド接続警告改善 (2026-05-11)
+- バックエンド未接続警告がずっと表示される問題を改善
+- 再発防止：警告表示状態を管理、×ボタンで閉じ可能、復旧時に自動非表示、チェック間隔を5分に延長

@@ -1,0 +1,40 @@
+package com.starline.dto.request;
+
+public class ChangePasswordRequest {
+
+    private String currentPassword;
+    private String newPassword;
+    private String newPasswordConfirm;
+
+    public ChangePasswordRequest() {}
+
+    public ChangePasswordRequest(String currentPassword, String newPassword, String newPasswordConfirm) {
+        this.currentPassword = currentPassword;
+        this.newPassword = newPassword;
+        this.newPasswordConfirm = newPasswordConfirm;
+    }
+
+    public String getCurrentPassword() {
+        return currentPassword;
+    }
+
+    public void setCurrentPassword(String currentPassword) {
+        this.currentPassword = currentPassword;
+    }
+
+    public String getNewPassword() {
+        return newPassword;
+    }
+
+    public void setNewPassword(String newPassword) {
+        this.newPassword = newPassword;
+    }
+
+    public String getNewPasswordConfirm() {
+        return newPasswordConfirm;
+    }
+
+    public void setNewPasswordConfirm(String newPasswordConfirm) {
+        this.newPasswordConfirm = newPasswordConfirm;
+    }
+}
